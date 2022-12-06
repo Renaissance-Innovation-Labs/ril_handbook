@@ -49,7 +49,7 @@ export default function Map() {
                 return (
                     <Marker key={index} style coordinates={[longitude, latitude]}>
                         <circle className="animate-ping" r={7} fill="white" />
-                        <circle r={6} fill="#F54E00" />
+                        <circle r={6} fill="#177AE5" />
                     </Marker>
                 )
             })}

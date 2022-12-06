@@ -102,15 +102,15 @@ module.exports = docsHandbook = ({ title, timeToRead, excerpt, lastUpdated, brea
             />
             <path
               d="M31.9649 18.0092C31.9649 17.7441 31.8596 17.4899 31.6723 17.3024L17.6898 3.30876C17.06 2.6784 15.9824 3.12448 15.9824 4.01558V13.9822C15.9824 14.2473 16.0877 14.5015 16.275 14.689L31.9649 30.3914V18.0092Z"
-              fill="#F54E00"
+              fill="#177AE5"
             />
             <path
               d="M15.9824 46.3866H26.3555C27.2463 46.3866 27.6925 45.3098 27.0629 44.6798L15.9824 33.5904V46.3866Z"
-              fill="#F54E00"
+              fill="#177AE5"
             />
             <path
               d="M15.9824 17.5952V29.9774C15.9824 30.2425 16.0877 30.4967 16.275 30.6842L31.9649 46.3866V34.0044C31.9649 33.7393 31.8596 33.4851 31.6723 33.2976L15.9824 17.5952Z"
-              fill="#F54E00"
+              fill="#177AE5"
             />
             <path
               d="M95.3634 40.0001H101.931V29.1009H107.418C113.445 29.1009 117.311 25.5233 117.311 19.9905C117.311 14.4577 113.445 10.8801 107.418 10.8801H95.3634V40.0001ZM101.931 23.4849V16.4961H106.753C109.247 16.4961 110.743 17.8273 110.743 19.9905C110.743 22.1537 109.247 23.4849 106.753 23.4849H101.931Z"
@@ -172,7 +172,7 @@ module.exports = docsHandbook = ({ title, timeToRead, excerpt, lastUpdated, brea
           <div style="font-size: 28px">
             ${breadcrumbs
                 .map((crumb) => {
-                    return `<span style="color: #f54e00; font-weight: 600">${crumb.name}</span>`
+                    return `<span style="color: #177AE5; font-weight: 600">${crumb.name}</span>`
                 })
                 .join('<span style="opacity: 30%; font-weight: 600"> / </span>')}
           </div>
@@ -295,7 +295,7 @@ module.exports = docsHandbook = ({ title, timeToRead, excerpt, lastUpdated, brea
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop offset="0.239583" stop-color="#1D4AFF" />
-                    <stop offset="0.526042" stop-color="#F54E00" />
+                    <stop offset="0.526042" stop-color="#177AE5" />
                     <stop offset="0.786458" stop-color="#F1A82C" />
                   </linearGradient>
                 </defs>

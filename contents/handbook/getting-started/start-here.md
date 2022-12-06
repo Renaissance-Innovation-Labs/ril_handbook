@@ -4,7 +4,7 @@ sidebar: Handbook
 showTitle: true
 ---
 
-Welcome to the PostHog Handbook! If you are a new starter, this page will help you navigate the Handbook and highlight some of the most important things you should know about working here. 
+Welcome to the RIL Handbook! If you are a new starter, this page will help you navigate the Handbook and highlight some of the most important things you should know about working here. 
 
 ## Big picture
 
@@ -12,13 +12,13 @@ We encourage everyone to start at the beginning first before diving in. We have 
 
 You should start with the '[Company](/handbook/company/story)' section and work your way through everything there. It is not a lot to read. In particular, the sections on our [Strategy](/handbook/strategy/overview) and [Roadmap](/handbook/strategy/roadmap) are a must-read for everyone. 
 
-Next, familiarise yourself with our approach to [Culture](/handbook/company/culture) and our [Values](/handbook/company/values). You might take a bit of time to adjust to PostHog's way of working, and that's ok! In addition to bias for action, you may find that you have a lot more autonomy than you are used to here - you'll realise very quickly that you _shouldn't_ be asking for permission for most things. 
+Next, familiarise yourself with our approach to [Culture](/handbook/company/culture) and our [Values](/handbook/company/values). You might take a bit of time to adjust to RIL's way of working, and that's ok! In addition to bias for action, you may find that you have a lot more autonomy than you are used to here - you'll realise very quickly that you _shouldn't_ be asking for permission for most things. 
 
 ## How we work
 
 Now it's time to dive into some of the more practical stuff - these are the most important pages:
 
-1. [Communication](/handbook/company/communication) - we have a distinctive style. If PostHog is your first all-remote company, this page is especially helpful.
+1. [Communication](/handbook/company/communication) - we have a distinctive style. If RIL is your first all-remote company, this page is especially helpful.
 2. [Team structure](/handbook/small-teams/team-structure) - we are structured in Small Teams. These pages will help you get the lay of the land, and who does what. 
 3. [Management](/handbook/company/management) - we have a relatively unusual approach to management, and it is possible that you will not be familiar with our approach. 
 

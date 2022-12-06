@@ -94,7 +94,7 @@ Colors denoted with an asterisk (*) are the same between palettes.
 | Background color            | <span style="color:#EEEFE9; font-size: 20px">■</span> `#EEEFE9`  | <span style="color:#151515; font-size: 20px">■</span> `#151515` |
 | Accent                      | <span style="color:#E5E7E0; font-size: 20px">■</span> `#E5E7E0`  | <span style="color:#2C2C2C; font-size: 20px">■</span> `#2C2C2C` |
 | Dashed divider line         | <span style="color:#D0D1C9; font-size: 20px">■</span> `#D0D1C9`  | <span style="color:#4B4B4B; font-size: 20px">■</span> `#4B4B4B` |
-| Red*                        | <span style="color:#F54E00; font-size: 20px">■</span> `#F54E00`  |           |
+| Red*                        | <span style="color:#177AE5; font-size: 20px">■</span> `#177AE5`  |           |
 | Yellow                      | <span style="color:#DC9300; font-size: 20px">■</span> `#DC9300`  | <span style="color:#F1A82C; font-size: 20px">■</span> `#F1A82C` |
 | Blue*                       | <span style="color:#1D4AFF; font-size: 20px">■</span> `#1D4AFF`  |           |
 | Gray*                       | <span style="color:#BFBFBC; font-size: 20px">■</span> `#BFBFBC`  |           |

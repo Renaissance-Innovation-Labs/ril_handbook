@@ -25,7 +25,7 @@ const ViewButton = ({ title, view, setView }) => {
         <button
             onClick={() => setView(title)}
             style={{
-                background: view === title ? '#F54E00' : '#E5E7E0',
+                background: view === title ? '#177AE5' : '#E5E7E0',
                 color: view === title ? 'white' : 'black',
             }}
             className="py-2 px-4 rounded-md w-1/2 transition-colors"

@@ -148,10 +148,10 @@ export default function Tutorials({
                         <h1 className="font-bold text-2xl md:text-3xl m-0">PostHog tutorials</h1>
                         <div className="flex space-x-3 items-center">
                             <button onClick={() => handleViewClick('card')}>
-                                <Cards style={{ color: view === 'card' ? '#F54E00' : '#BFBFBC' }} />
+                                <Cards style={{ color: view === 'card' ? '#177AE5' : '#BFBFBC' }} />
                             </button>
                             <button onClick={() => handleViewClick('list')}>
-                                <List style={{ color: view === 'list' ? '#F54E00' : '#BFBFBC' }} />
+                                <List style={{ color: view === 'list' ? '#177AE5' : '#BFBFBC' }} />
                             </button>
                         </div>
                     </div>

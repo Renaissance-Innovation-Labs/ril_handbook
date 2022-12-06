@@ -1,0 +1,109 @@
+---
+title: How to embed a shared Dashboard within a web page
+sidebar: Docs
+showTitle: true
+author: ['leggetter']
+date: 2021-11-15
+featuredImage: ../images/tutorials/banners/dashboard-web.png
+topics: ['dashboards']
+---
+
+_Estimated reading time: 3 minutes_ ☕
+
+[Dashboards](/docs/user-guides/dashboards) let you bring together a number of charts and Insights into a single view. Dashboards are available to anyone with access to the Project that they are part of. However, you may want to share a Dashboard with other people who do not have a PostHog login. In these situations you can [share a link to the Dashboard](/docs/user-guides/dashboards#send-or-share-a-dashboard) or you could decide to embed the Dashboard within a publicly accessible web page.
+
+In this short tutorial we'll cover how to be embed a dashboard within a web page.
+
+## Embed with an iframe
+
+A shared Dashboard contains:
+
+-   The PostHog logo
+-   The Dashboard title
+-   The Dashboard description
+-   The Project name
+-   When the Insights within the Dashboard were last updated
+-   The Insight charts
+
+![Dashboard with explanation labels](../images/docs/user-guides/dashboards/shared-dashboard-overview.png)
+
+To embed a shared Dashboard using an `<iframe />` set the `src` attribute to the URL of the public Dashboard.
+
+For example, the following code:
+
+```html
+<iframe
+    width="100%"
+    height="700"
+    frameborder="0"
+    src="https://app.posthog.com/embedded/fEjuk1e61iQjYiRjODPDjpbsyhIfpg"
+/>
+```
+
+Produces the following embedded dashboard:
+
+<center>
+    <iframe
+        id="my-posthog-iframe"
+        name="MyPostHogIframe"
+        width="100%" height="700"
+        src="https://app.posthog.com/embedded/fEjuk1e61iQjYiRjODPDjpbsyhIfpg"
+    />
+</center>
+
+## Expanding the iframe to match the height of the Dashboard
+
+Due to restrictions with cross-origin iframes, we emit a special message from the embedded Dashboard which you can listen to in order to adjust the iframe to match its height. This is ideal if you want to show the full dashboard without the need to scroll.
+
+**Simple HTML embed example**
+
+```html
+<html>
+    <iframe
+        id="my-posthog-iframe"
+        name="MyPostHogIframe"
+        width="100%"
+        height="400"
+        src="https://app.posthog.com/embedded/PQ_VjRR-9F49pRJfmLaoflADhoKTsw"
+    ></iframe>
+
+    <script type="text/javascript">
+        window.addEventListener('message', (e) => {
+            if (e.data.event === 'posthog:dimensions' && e.data.name === 'MyPostHogIframe') {
+                document.getElementById('my-posthog-iframe').height = e.data.height
+            }
+        })
+    </script>
+</html>
+```
+
+**React application example**
+
+```tsx
+function App() {
+    const [height, setHeight] = useState(400)
+
+    useEffect(() => {
+        const onChange = (e: any) => {
+            if (e.data.event === 'posthog:dimensions' && e.data.name === 'MyPostHogIframe') {
+                setHeight(e.data.height)
+            }
+        }
+        window.addEventListener('message', onChange)
+        return () => window.removeEventListener('message', onChange)
+    }, [])
+
+    return (
+        <div>
+            <iframe
+                name="MyPostHogIframe"
+                width="100%"
+                height={height}
+                src="https://app.posthog.com/embedded/PQ_VjRR-9F49pRJfmLaoflADhoKTsw"
+            ></iframe>
+        </div>
+    )
+}
+```
+
+<NewsletterTutorial compact/>

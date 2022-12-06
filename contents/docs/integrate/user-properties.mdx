@@ -1,0 +1,45 @@
+---
+title: User properties
+sidebarTitle: User properties
+sidebar: Docs
+showTitle: true
+---
+
+In addition to events having properties, users can also have properties. There are three different methods that can be used: `set`, `set_once` and `$unset`. Depending on the integration library the actual function calls look a bit different, but internally they all work the same way. Note that all methods can be used in properties with normal event capture, e.g. using our [js library](/docs/integrate/client/js):
+```js
+posthog.capture(
+    'Set some user properties', 
+    { 
+        $set: { location: 'London'  },
+        $set_once: { referred_by: 'some ID' },
+        $unset: [ 'priority' ],
+    }
+```
+
+## When to use `set` and `set_once`?
+
+Use `set`, when the value should always be the newest one, e.g. user email, if user does an update to their email, we always want to use the latest value.
+
+Use `set_once` when we want the first value and it to never be updated afterwards, e.g. initial URL for the first URL we ever saw this user on.
+
+Sometimes we might want to mix `set` and `set_once` usage. Imagine, when we have some heuristics that help us determine a value, but users can also specify it. In these cases it might be beneficial to use `set_once` for the heuristically computed value and `set` for user specified value. Note that we will never override an existing value if `set_once` is used, so if heuristics are used on a continuous basis that would not be a good strategy.
+
+## How do values get overridden?
+
+`set` always overrides, `set_once` only writes when the value doesn't exist.
+
+`identify` and `alias` upon name conflict use the value the first user provided. This series of calls would mean we end up with `location` being `Rome`:
+```python
+posthog.capture('anon', event='set location', properties={'$set': {'location': 'Paris'}})
+posthog.capture('Alice', event='set location', properties={'$set_once': {'location': 'Rome'}})
+posthog.alias('Alice', 'anon')
+```
+
+Note that we ignore the event timestamps and just process everything at ingestion time.
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Docs",
+        "link": "/docs"
+    },
+    {
+        "name": "Pricing",
+        "link": "/pricing"
+    },
+    {
+        "name": "Install",
+        "link": "/docs/self-host"
+    },
+    {
+        "name": "GitHub",
+        "a": "https://github.com/PostHog/posthog"
+    },
+    {
+        "name": "Login",
+        "a": "https://app.posthog.com/login"
+    }
+]

@@ -1,0 +1,14 @@
+.anchor-link {
+    opacity: 0;
+    position: absolute;
+    transform: translate(-0.5em, 10px);
+    width: 1em;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.mdx-header:hover {
+    .anchor-link {
+        opacity: 1;
+    }
+}

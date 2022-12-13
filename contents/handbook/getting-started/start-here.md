@@ -6,13 +6,13 @@ showTitle: true
 
 Welcome to the RIL Handbook! If you are a new starter, this page will help you navigate the Handbook and highlight some of the most important things you should know about working here. 
 
-## Big picture
+## What We Do
 
-We encourage everyone to start at the beginning first before diving in. We have a strong bias for action, but it is still worth taking a step back and looking at the 'why' first. This helps ensure you have the right context and are working on the right things. 
+We facilitate technology experiments from ideation to formation of business units, and translate solutions to enterprise.
 
-You should start with the '[Company](/handbook/company/story)' section and work your way through everything there. It is not a lot to read. In particular, the sections on our [Strategy](/handbook/strategy/overview) and [Roadmap](/handbook/strategy/roadmap) are a must-read for everyone. 
+We find areas right for disruption by engaging diverse participants in open collaboration. These participants (innovators) are taken through a guided learning process that equips them with the requisite knowledge and skill for progress. Together, we’re able to engineer innovative prototypes and explore opportunities with contributors, mentors, and sponsors.
 
-Next, familiarise yourself with our approach to [Culture](/handbook/company/culture) and our [Values](/handbook/company/values). You might take a bit of time to adjust to RIL's way of working, and that's ok! In addition to bias for action, you may find that you have a lot more autonomy than you are used to here - you'll realise very quickly that you _shouldn't_ be asking for permission for most things. 
+We take on challenges too big for one organization by engaging diverse participants to create, elaborate, and prototype disruptive solutions. 
 
 ## How we work
 
@@ -22,35 +22,20 @@ Now it's time to dive into some of the more practical stuff - these are the most
 2. [Team structure](/handbook/small-teams/team-structure) - we are structured in Small Teams. These pages will help you get the lay of the land, and who does what. 
 3. [Management](/handbook/company/management) - we have a relatively unusual approach to management, and it is possible that you will not be familiar with our approach. 
 
-### Working in GitHub
+## Mission
 
-We use [GitHub](https://github.com/PostHog) for _everything_, including non-engineering task management. This might take some getting used to if you are non-technical. If that is the case, we have [this intro video](https://www.youtube.com/watch?v=2BB4Nkc0uVM) that will teach you the basics and [a detailed guide on how to set up a local version of Posthog.com so that you can make changes to the docs, handbook and website](/handbook/engineering/posthog-com/developing-the-website). 
+Our mission is to move people forward through social, economic, and technological progress. We’re enabling a culture of orchestrated development that supports technology enthusiasts, aspiring entrepreneurs, and well-meaning individuals and organizations in the quest to redefine our society and communities for the better.
 
-Our most active repositories (aka 'repos') are:
+## Vision 
 
-- [PostHog](https://github.com/PostHog/posthog) - main app
-- [PostHog.com](https://github.com/PostHog/posthog.com) - website
-- [Product Internal](https://github.com/PostHog/product-internal) - product-related issues that need to be kept internal, e.g. security issues, customer-specific issues (private)
-- [Company Internal](https://github.com/PostHog/company-internal) - company-facing issues, e.g. internal processes, hiring planning (private)
+Our singular vision is to build a company capable of redefining our society and communities for the better.
 
-When you have a new Issue or want to submit a Pull Request, you do that in the relevant repo. 
+## Values
 
-We use GitHub Projects to track the status of Issues in an easily viewable way. When you create an Issue, you can assign it to a Project - think of a Project as a way of organising and filtering Issues in a particular view. This makes it easy for Small Teams to easily track what they are working on without having to jump between different repos. Some Issues may be assigned to multiple Projects if they involve the work of more than one team.
 
-You can also assign an Issue to a specific person, and tag it with a relevant label - use these to help people filter more easily.
-
-Each Small Team has its own Project for tracking their Issues - [full list here](https://github.com/orgs/PostHog/projects). Most teams run two week sprints - as part of onboarding, you will be invited to the relevant planning meetings. 
-
-## Onboarding 
-
-Our [onboarding checklist](/handbook/people/onboarding) will take you through all the main admin bits you need to get set up, such as accounts access and payroll. The list will vary slightly depending on where you are based and which Small Team you are in. The People team will create an Issue in the Internal repo to track your personal checklist. 
-
-### Other useful resources
-
-It is worth trying to at least read the entire Handbook once, even if you skim over the other sections. If you are engineer, the [Engineering](/handbook/engineering/development-process) section will obviously be useful, but you might want to know how we're approaching our [Marketing](/handbook/growth/marketing) strategy.
-
-A few additional pages that may occasionally come in handy:
-
-- [Media](/media) - official PostHog logos and backgrounds
-- [Customer Support](/handbook/growth/customer-support) - we don't have a dedicated support team. Learn why!
-- [Benefits](/handbook/people/benefits) - we are adding more all the time!
+- Collaboration: We understand the importance of working together to achieve common goals.
+- Community: We rise by lifting others, RIL focuses on having as many people with like minds and visions working with us as     possible.
+- Integrity and Trust: In order to ensure we achieve our goals, we appreciate integrity as this builds trust.
+- Growth: Every member of our community is expected to show improvement as they spend time with us.
+- Innovation: We are always looking for new ways to solve problems.
+- Excellence/Quality: We apply our expertise to ensure excellence in all endeavors, going above and beyond the normal

@@ -6,14 +6,14 @@ require('dotenv').config({
 
 module.exports = {
     siteMetadata: {
-        title: 'PostHog',
+        title: 'Renaissance Innovation Labs - Handbook',
         titleTemplate: '%s',
         description:
             'Open-source product analytics built for developers. Automate the collection of every event on your website or app, without sending data to third-parties. Quickly deploy on your own infrastructure, with full access to the underlying data.',
-        url: 'https://posthog.com', // No trailing slash allowed!
+        url: 'https://handbook.renaissancelabs.org', // No trailing slash allowed!
         image: '/banner.png', // Path to your image you placed in the 'static' folder
-        twitterUsername: '@PostHog',
-        siteUrl: 'https://posthog.com', // required by gatsby-plugin-sitemap
+        twitterUsername: '@RxLabs',
+        siteUrl: 'https://handbook.renaissancelabs.org', // required by gatsby-plugin-sitemap
     },
     trailingSlash: 'never',
     plugins: [

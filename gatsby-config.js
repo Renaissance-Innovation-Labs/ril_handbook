@@ -18,26 +18,6 @@ module.exports = {
     trailingSlash: 'never',
     plugins: [
         {
-            resolve: `gatsby-source-ashby`,
-            options: {
-                apiKey: process.env.ASHBY_API_KEY,
-            },
-        },
-        {
-            resolve: `gatsby-source-squeak`,
-            options: {
-                apiHost: 'https://squeak.cloud',
-                organizationId: 'a898bcf2-c5b9-4039-82a0-a00220a8c626',
-            },
-        },
-        {
-            resolve: 'gatsby-plugin-mailchimp',
-            options: {
-                endpoint:
-                    'https://posthog.us19.list-manage.com/subscribe/post?u=292207b434c26e77b45153b96&amp;id=97194afa0a',
-            },
-        },
-        {
             resolve: 'gatsby-plugin-breakpoints',
             options: {
                 queries: {

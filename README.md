@@ -1,6 +1,6 @@
-# PostHog.com - Docs, Website, and Handbook
+# Renaissance Innovation Labs - Handbook
 
-This is the repository for the PostHog website, which includes our Docs and Handbook.
+This is the repository for the RIL Handbook.
 
 Please feel free to suggest any changes. See our [contributing guide](https://github.com/PostHog/posthog.com/blob/master/CONTRIBUTING.MD) for more information.
 
@@ -18,7 +18,7 @@ Please feel free to suggest any changes. See our [contributing guide](https://gi
     Clone the repo then navigate into your new site’s directory, install the site dependencies, and start it up.
 
     ```bash
-    cd posthog.com/
+    cd ril_handbook/
     yarn
     yarn start
     ```

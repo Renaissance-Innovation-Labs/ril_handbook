@@ -40,12 +40,12 @@
             ]
         },
         {
-            "name": "Strategy",
+            "name": "Marketing Strategy",
             "url": "",
             "children": [
                 {
-                    "name": "Strategy overview",
-                    "url": "/handbook/strategy/overview"
+                    "name": "Marketing",
+                    "url": "/handbook/strategy/marketing"
                 },
                 {
                     "name": "Ideal Customer Persona",
@@ -276,24 +276,25 @@
             "url": "",
             "children": [
                 {
-                    "name": "Getting started",
+                    "name": "Product Cycle",
                     "url": "",
+
                     "children": [
                         {
-                            "name": "Developing locally",
-                            "url": "/handbook/engineering/developing-locally"
+                            "name": "Initial Planning",
+                            "url": "/handbook/engineering/initial-planning"
                         },
                         {
-                            "name": "Tech stack",
-                            "url": "/handbook/engineering/stack"
+                            "name": "Planning Phase",
+                            "url": "/handbook/engineering/planning-phase"
                         },
                         {
-                            "name": "Project structure",
-                            "url": "/handbook/engineering/project-structure"
+                            "name": "Requirement Gathering/Planning",
+                            "url": "/handbook/engineering/requirement-gathering"
                         },
                         {
-                            "name": "How we review PRs",
-                            "url": "/handbook/engineering/how-we-review"
+                            "name": "Design Phase/Analysis/Budgeting",
+                            "url": "/handbook/engineering/design-phase"
                         }
                     ]
                 },

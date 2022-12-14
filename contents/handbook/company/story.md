@@ -1,73 +1,40 @@
 ---
-title: Story
+title: Our story
 sidebar: Handbook
 showTitle: true
 ---
 
-## Jan 2020: The start
 
-PostHog was founded by James and Tim on January 23rd, 2020.
+## 2019
+In 2019, our founder Joseph realized that in spite of the increasing supply of young talents in the region only a few had the opportunities to grow and explore their innovative ideas. It was out of this great need that RIL was born. That same year, we partnered with other tech communities in Port Harcourt for the international space apps challenge.
 
-We started working together on a startup in August 2019 with the first idea being to help engineers manage technical debt. It didn't work out, but we realized the power of treating growth as an engineering problem. We also knew that many engineers struggle to understand their impact on their users.
 
-There are plenty of product analytics tools out there, but all the alternatives are SaaS-based. While they are very powerful, they can be frustrating for developers. From our perspective, these tools can be problematic because:
+## 2020
+RIL has been on a mission to revolutionize Africa’s tech space with disrupting innovations and solutions to the biggest issues. We’ve invested heavily to nurture local talents. We have supported collaborations in building ground-up solutions that have authentic value to Africans.
 
-* We didn't want to send all our user data to 3rd parties.
-* We wanted full underlying data access.
-* They don't give you choice and control over pricing.
 
-## Feb 2020: Launch
+## 2021
+In 2021, we launched our fellowship program which was designed to unite young innovators. We trained over 25 innovators, providing them with resources including access to industry experts. Some of these young innovators are currently employed by international partner organizations using the skills learnt under us.
 
-We got into Y Combinator's W20 batch, and just a couple of weeks after starting realized that we needed to build PostHog.
+## 2022
+With a proven track record of success in collaboration and nurturing tech talents, we launched the RILearn program. With this program, we have trained 15 in our bootcamp and 11 young teens and children talents via our Kids in Tech programs. We hosted various tech events including, Motion Design Experience (MDX), React Event and the RILExpo. We have fostered career development via our online communities and RILdiscuss.
 
-We launched on [Hacker News](https://news.ycombinator.com/item?id=22376732) with our MVP, just 4 weeks after we started writing code.
 
-The response was overwhelmingly positive. We had over 300 deployments in a couple of days. 2 weeks later, we'd gone past 1,500 stars on [GitHub](https://github.com/PostHog/posthog).
 
-Since then, we've realized that the same reasons that PostHog was appealing to us as individual developers are the reasons why many enterprise customers also find the software is very appealing. We got a lot of inbound demand, and realized we weren't just onto a cool side project, we were onto what could be a huge company.
 
-## Apr 2020: $3M Seed round
 
-After we finished Y Combinator, [we raised a $3.025M seed round](../../blog/raising-3m-for-os). This was from Y Combinator's Continuity Fund, 1984 Ventures. You can learn more about how we raised the money.
+## Motion Design Experience
+The year paced up rather quickly and we had our first event in June. Motion design experience(MDX) which was held on the 30th of June was a partnered event with the motion design community in Port Harcourt. As one of the biggest tech events in Port Harcourt this year, here’s what some of the attendees had to say about it.
 
-As we started raising, we started hiring. We brought on board [Marius, Eric and James G](../../handbook/company/team).
+## Summer Class
+We kicked off our Kids in Tech program in July, and we were thrilled about introducing tech to kids. We had a total of 13 kids separated into Frontend development and Product Design. In just one month, these kids managed to build landing pages and design apps respectively.
 
-## May 2020: First 1,000 users
+## Bootcamp
+Our Bootcamp was started to create a community for newbies interested in getting introduced to the magical world of tech. In three months, we took a total of 15 innovators from enthusiasts to intermediate.
 
-We kept shipping, people kept coming!
+## React Meetup
+The react meetup was hosted because we noticed a growing react community in Port Harcourt and as a company that loves react, we wanted to meet with the family.
 
-## Oct 2020: Billions of events supported
-
-This was a major update - PostHog started providing [ClickHouse support](../../blog/the-posthog-array-1-15-0#clickhouse-). Whilst we launched based on PostgreSQL, as it was the fastest option, this enabled us to scale to billions of events.
-
-## Nov 2020: Building a platform
-
-We realized that our users, whether they're startups, scale ups or enterprises, have simple needs across a broad range of use cases in understanding user behavior.
-
-PostHog now supports [product analytics](/product/trends), [feature flags](/product/feature-flags), [session recording](/product/session-recording) and [apps](/apps).
-
-## Dec 2020: $9M Series A
-
-We kept growing organically and took the opportunity to raise a $9M Series A, topping our funding up to [$12M](../../blog/posthog-announces-9-million-dollar-series-A) led by [GV](https://www.gv.com/) (formerly Google Ventures).
-
-Our focus remains firmly product, engineering and design oriented, so we're increasing our team in those areas.
-
-We've now people in 10 countries around the world, and still feel like it's day one.
-
-Everyone takes a mandatory two weeks off over Christmas to relax.
-
-## Jun 2021: $15M Series B
-
-We raised a $15M Series B [a little ahead of schedule](../../blog/why-we-raised-a-15m-series-b-ahead-of-schedule), led by existing investors Y Combinator. 
-
-We're now focused on achieving strong product/market fit with our [target segment](../../handbook/strategy/overview#target-audience-for-2021) in 2021. 
-
-Our team has now grown to 25 people in 10 countries. 
-
-## Sep 2021: Product Market fit achieved for PostHog Scale
-
-We now have product market fit for our open source product and PostHog Scale.
-
-Our revenue has quickly risen as a result, now we need to accelerate community growth, and we'll work on product market fit for PostHog Enterprise.
-
-We're 30 people in 12 countries.
+## RIL Discuss
+RIL Discuss is our Twitter space that holds two Fridays every month. This is where we reach our community and offer everyone a platform to contribute, collaborate, and ask questions. RIL discuss hosted some awesome topics and speakers this year.
+Our product team weren’t left out of the fun either. We worked on a couple of innovative projects this year.

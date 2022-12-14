@@ -319,190 +319,27 @@
                     ]
                 },
                 {
-                    "name": "Coding conventions",
-                    "url": "",
-                    "children": [
-                        {
-                            "name": "Frontend coding",
-                            "url": "/handbook/engineering/conventions/frontend-coding"
-                        },
-                        {
-                            "name": "Backend coding",
-                            "url": "/handbook/engineering/conventions/backend-coding"
-                        }
-                    ]
+                    "name": "Product/Feature Life Cycle",
+                    "url": "/handbook/engineering/feature-life-cycle"
                 },
                 {
-                    "name": "Internal processes",
-                    "url": "",
-                    "children": [
-                        {
-                            "name": "Support hero",
-                            "url": "/handbook/engineering/support-hero"
-                        },
-                        {
-                            "name": "Feature ownership",
-                            "url": "/handbook/engineering/feature-ownership"
-                        },
-                        {
-                            "name": "Working with product design",
-                            "url": "/handbook/engineering/product-design"
-                        },
-                        {
-                            "name": "Releasing a new version",
-                            "url": "/handbook/engineering/release-new-version"
-                        },
-                        {
-                            "name": "Handling incidents",
-                            "url": "/handbook/engineering/incidents"
-                        },
-                        {
-                            "name": "Bug prioritization",
-                            "url": "/handbook/engineering/bug-prioritization"
-                        }
-                    ]
+                    "name": "Wireframe Design Guidelines",
+                    "url": "/handbook/engineering/wireframe-design-guidelines"
                 },
+
                 {
-                    "name": "Working with data",
-                    "url": "",
-                    "children": [
-                        {
-                            "name": "Event ingestion explained",
-                            "url": "/handbook/engineering/databases/event-ingestion"
-                        },
-                        {
-                            "name": "Making schema changes safely",
-                            "url": "/handbook/engineering/databases/schema-changes"
-                        },
-                        {
-                            "name": "How to optimize queries",
-                            "url": "/handbook/engineering/databases/query-performance-optimization"
-                        },
-                        {
-                            "name": "How to write an async migration",
-                            "url": "/handbook/engineering/databases/async-migrations"
-                        },
-                        {
-                            "name": "How to run migrations on PostHog Cloud",
-                            "url": "/handbook/engineering/databases/clickhouse-event-table-migrations"
-                        },
-                        {
-                            "name": "Working with ClickHouse materialized columns",
-                            "url": "/handbook/engineering/databases/materialized-columns"
-                        }
-                    ]
+                    "name": "Development Stages",
+                    "url": "/handbook/engineering/development-stages"
                 },
+
                 {
-                    "name": "Deployments",
-                    "url": "",
-                    "children": [
-                        {
-                            "name": "Deployments support",
-                            "url": "/handbook/engineering/deployments-support"
-                        },
-                        {
-                            "name": "Working with cloud providers",
-                            "url": "/handbook/engineering/cloud-providers"
-                        },
-                        {
-                            "name": "How-to access PostHog Cloud infra",
-                            "url": "/handbook/engineering/how-to-access-posthog-cloud-infra"
-                        }
-                    ]
+                    "name": "Infrastructure System",
+                    "url": "/handbook/engineering/infrastructure-system"
                 },
+
                 {
-                    "name": "PostHog.com",
-                    "url": "",
-                    "children": [
-                        {
-                            "name": "Developing the website",
-                            "url": "/handbook/engineering/posthog-com/developing-the-website"
-                        },
-                        {
-                            "name": "MDX setup",
-                            "url": "/handbook/engineering/posthog-com/mdx-setup"
-                        },
-                        {
-                            "name": "Markdown",
-                            "url": "/handbook/engineering/posthog-com/markdown"
-                        },
-                        {
-                            "name": "Jobs",
-                            "url": "/handbook/engineering/posthog-com/jobs"
-                        }
-                    ]
-                },
-                {
-                    "name": "ClickHouse manual",
-                    "url": "",
-                    "children": [
-                        {
-                            "name": "Overview",
-                            "url": "/handbook/engineering/clickhouse"
-                        },
-                        {
-                            "name": "Data storage or what is a MergeTree",
-                            "url": "/handbook/engineering/clickhouse/data-storage"
-                        },
-                        {
-                            "name": "Data replication",
-                            "url": "/handbook/engineering/clickhouse/replication"
-                        },
-                        {
-                            "name": "Data ingestion",
-                            "url": "/handbook/engineering/clickhouse/data-ingestion"
-                        },
-                        {
-                            "name": "Working with JSON",
-                            "url": "/handbook/engineering/clickhouse/working-with-json"
-                        },
-                        {
-                            "name": "Query performance",
-                            "url": "/handbook/engineering/clickhouse/performance"
-                        },
-                        {
-                            "name": "Operations",
-                            "url": "/handbook/engineering/clickhouse/operations"
-                        },
-                        {
-                            "name": "Schema case studies",
-                            "url": "",
-                            "children": [
-                                {
-                                    "name": "Overview",
-                                    "url": "/handbook/engineering/clickhouse/schema"
-                                },
-                                {
-                                    "name": "sharded_events",
-                                    "url": "/handbook/engineering/clickhouse/schema/sharded-events"
-                                },
-                                {
-                                    "name": "app_metrics",
-                                    "url": "/handbook/engineering/clickhouse/schema/app-metrics"
-                                },
-                                {
-                                    "name": "person_distinct_id",
-                                    "url": "/handbook/engineering/clickhouse/schema/person-distinct-id"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Shipping things, step by step",
-                    "url": "/handbook/engineering/development-process"
-                },
-                {
-                    "name": "Feature flags specification",
-                    "url": "/handbook/engineering/feature-flags-spec"
-                },
-                {
-                    "name": "Setting up SSL locally",
-                    "url": "/handbook/engineering/setup-ssl-locally"
-                },
-                {
-                    "name": "Tech talks",
-                    "url": "/handbook/engineering/tech-talks"
+                    "name": "Project Types",
+                    "url": "/handbook/engineering/project-types"
                 }
             ]
         },

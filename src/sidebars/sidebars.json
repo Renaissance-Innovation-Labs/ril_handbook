@@ -295,6 +295,26 @@
                         {
                             "name": "Design Phase/Analysis/Budgeting",
                             "url": "/handbook/engineering/design-phase"
+                        },
+
+                        {
+                            "name": "Implementation Phase",
+                            "url": "/handbook/engineering/implementation-phase"
+                        },
+
+                        {
+                            "name": "Development/Iteration Phase",
+                            "url": "/handbook/engineering/iteration-phase"
+                        },
+
+                        {
+                            "name": "Deployment",
+                            "url": "/handbook/engineering/deployment"
+                        },
+
+                        {
+                            "name": "Evaluation/Closure",
+                            "url": "/handbook/engineering/evaluation"
                         }
                     ]
                 },

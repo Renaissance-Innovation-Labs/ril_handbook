@@ -1,12 +1,15 @@
 {
-    "name": "posthog.com",
-    "description": "Official PostHog website.",
+    "name": "RIL - handbook",
+    "description": "Official RIL handbook.",
     "version": "1.0.0",
-    "author": "PostHog",
+    "author": "RIL",
     "license": "MIT",
+    "engines": {
+        "node": "16.x"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/PostHog/posthog.com"
+        "url": "https://github.com/Renaissance-Innovation-Labs/ril_handbook"
     },
     "keywords": [
         "gatsby"

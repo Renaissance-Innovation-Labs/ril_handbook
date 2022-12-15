@@ -230,22 +230,6 @@ module.exports = exports.createPages = async ({ actions: { createPage }, graphql
                     id
                 }
             }
-            squeakTopics: allSqueakTopic {
-                nodes {
-                    label
-                    topicId
-                    slug
-                }
-            }
-            squeakTopicGroups: allSqueakTopicGroup {
-                nodes {
-                    label
-                    topics {
-                        id
-                        label
-                    }
-                }
-            }
             jobs: allAshbyJobPosting {
                 nodes {
                     id
@@ -521,32 +505,6 @@ module.exports = exports.createPages = async ({ actions: { createPage }, graphql
     })
 
     const menu = []
-    result.data.squeakTopicGroups.nodes.forEach(({ label, topics }) => {
-        menu.push({ name: label })
-        topics.forEach(({ label }) => {
-            menu.push({
-                name: label,
-                url: `/questions/${slugify(label, {
-                    lower: true,
-                })}`,
-            })
-        })
-    })
-
-    result.data.squeakTopics.nodes.forEach((node) => {
-        const { slug, label, topicId } = node
-
-        createPage({
-            path: `questions/${slug}`,
-            component: SqueakTopic,
-            context: {
-                id: topicId,
-                topics: result.data.squeakTopics.nodes,
-                label,
-                menu,
-            },
-        })
-    })
 
     if (process.env.ASHBY_API_KEY && process.env.GITHUB_API_KEY) {
         for (node of result.data.jobs.nodes) {

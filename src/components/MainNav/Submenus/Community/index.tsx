@@ -1,7 +1,6 @@
 import Link from 'components/Link'
 import { StaticImage } from 'gatsby-plugin-image'
 import React, { useState } from 'react'
-import { Squeak } from 'squeak-react'
 import Header from '../Header'
 import RightCol from '../RightCol'
 import CallToAction from '../CallToAction'
@@ -166,16 +165,16 @@ export default function Docs({ referenceElement }: { referenceElement: HTMLDivEl
     )
 }
 
-const query = graphql`
-    {
-        topicGroups: allSqueakTopicGroup {
-            nodes {
-                label
-                topics {
-                    id
-                    label
-                }
-            }
-        }
-    }
-`
+// const query = graphql`
+//     {
+//         topicGroups: allSqueakTopicGroup {
+//             nodes {
+//                 label
+//                 topics {
+//                     id
+//                     label
+//                 }
+//             }
+//         }
+//     }
+// `

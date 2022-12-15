@@ -12,8 +12,6 @@ import Features from './Features'
 import Hero from './Hero'
 import Apps from './Apps'
 import Pipelines from './Pipelines'
-import Timeline from './Timeline'
-import Roadmap from './Roadmap'
 import Quote from './Quote'
 import Tutorials from './Tutorials'
 
@@ -34,8 +32,6 @@ const Home = () => {
                 <BeforeAndAfter />
                 <Apps />
                 <Pipelines />
-                <Timeline />
-                <Roadmap />
                 <Quote />
                 <Community />
                 <Tutorials

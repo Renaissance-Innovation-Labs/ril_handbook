@@ -2,10 +2,8 @@ import { heading } from 'components/Home/classes'
 import { RightArrow } from 'components/Icons/Icons'
 import Layout from 'components/Layout'
 import Link from 'components/Link'
-import { Quote } from 'components/Pricing/Quote'
 import { SEO } from 'components/seo'
 import { graphql, useStaticQuery } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
 const Card = ({ children, url, className = '' }) => {
@@ -60,23 +58,7 @@ export default function Customers() {
                     <FeaturedCustomer customer={featuredCustomer} />
                 </section>
                 <section className="bg-black dark py-16 md:py-32 px-4">
-                    <div>
-                        <Quote
-                            logo="/images/customers/mention-me.svg"
-                            name="Joe Saunderson"
-                            title="Software Engineer, Mention Me"
-                            imageSource="/images/customers/joe.png"
-                            quote={
-                                <span>
-                                    “We looked at{' '}
-                                    <span className="text-red">
-                                        Amplitude, Mixpanel and Pendo and they were far too expensive.
-                                    </span>{' '}
-                                    Not only that, it was also very unclear how they worked in terms of data privacy.”
-                                </span>
-                            }
-                        />
-                    </div>
+                    <div></div>
                 </section>
                 <section className="max-w-[1140px] mx-auto -mt-6 md:-mt-12 px-4">
                     <ul className="list-none p-0 m-0 grid md:grid-cols-2 gap-y-5 md:gap-y-10 gap-x-10">
@@ -109,21 +91,7 @@ export default function Customers() {
                     </ul>
                 </section>
                 <section className="my-16 md:my-32 px-4">
-                    <div>
-                        <Quote
-                            logo="/images/customers/weweb.svg"
-                            name="Quentin Durantay"
-                            title="Growth, WeWeb"
-                            imageSource="/images/customers/quentin.jpeg"
-                            quote={
-                                <span>
-                                    “I love PostHog! The tool that finally made me churn from Amplitude.{' '}
-                                    <span className="text-red">1/10th of the price and 10x the value.</span> I highly
-                                    recommend it!”
-                                </span>
-                            }
-                        />
-                    </div>
+                    <div></div>
                 </section>
             </Layout>
         </>

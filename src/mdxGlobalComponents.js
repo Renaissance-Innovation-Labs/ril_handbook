@@ -84,20 +84,6 @@ import { OverflowXSection } from './components/OverflowXSection'
 import { Popover } from './components/Popover'
 import { PostCard } from './components/PostCard'
 import { PostLayout } from './components/PostLayout'
-import { AllPlans } from './components/Pricing/AllPlans'
-import { AllPlansTest } from './components/Pricing/AllPlansTest'
-import { Calculator } from './components/Pricing/Calculator'
-import { CloudVsSelfHost } from './components/Pricing/CloudVsSelfHost'
-import { FAQs } from './components/Pricing/FAQs'
-import { Features } from './components/Pricing/Features'
-import { PlanComparison } from './components/Pricing/PlanComparison'
-import { PlanComparisonTest } from './components/Pricing/PlanComparisonTest'
-import { PricingHero } from './components/Pricing/PricingHero'
-import { PricingSlider } from './components/Pricing/PricingSlider'
-import { PricingTable } from './components/Pricing/PricingTable'
-import { ProductPillars } from './components/Pricing/ProductPillars'
-import { Quote } from './components/Pricing/Quote'
-import { Savings } from './components/Pricing/Savings'
 import { ProductAnchorNavbar } from './components/ProductAnchorNavbar'
 import { ProductFeature } from './components/ProductFeature'
 import { ProductFeaturePlugin } from './components/ProductFeaturePlugin'
@@ -218,20 +204,6 @@ export const shortcodes = {
     Popover,
     PostCard,
     PostLayout,
-    AllPlans,
-    AllPlansTest,
-    Calculator,
-    CloudVsSelfHost,
-    FAQs,
-    Features,
-    PlanComparison,
-    PlanComparisonTest,
-    PricingHero,
-    PricingSlider,
-    PricingTable,
-    ProductPillars,
-    Quote,
-    Savings,
     ProductAnchorNavbar,
     ProductFeature,
     ProductFeaturePlugin,

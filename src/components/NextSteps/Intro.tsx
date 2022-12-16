@@ -1,4 +1,3 @@
-import { Quote } from 'components/Pricing/Quote'
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 import Card from './Card'
@@ -13,11 +12,6 @@ export default function Intro({ name }: { name: string }) {
             <p className="text-[17px] leading-[1.7]">
                 If you have questions that aren’t covered here, just shoot us an email!
             </p>
-            <Quote
-                name="James Hawkins"
-                title="Co-founder & CEO"
-                image={<StaticImage alt="James Hawkins" width={80} src="../../images/james.png" />}
-            />
         </Card>
     )
 }

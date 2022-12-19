@@ -1,4 +1,5 @@
 module.exports = exports.createSchemaCustomization = async ({ actions, schema }) => {
+    process.setMaxListeners(Infinity)
     const { createTypes } = actions
     createTypes(`
     type Mdx implements Node {

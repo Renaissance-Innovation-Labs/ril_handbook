@@ -17,19 +17,13 @@ export const SEO = ({ title, description, image, article, canonicalUrl, noindex 
     const { pathname } = useLocation()
     const { site } = useStaticQuery(query)
 
-    const {
-        defaultTitle,
-        titleTemplate,
-        defaultDescription,
-        siteUrl,
-        defaultImage,
-        twitterUsername,
-    } = site.siteMetadata
+    const { defaultTitle, titleTemplate, defaultDescription, siteUrl, defaultImage, twitterUsername } =
+        site.siteMetadata
 
     const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
-        image: `${process.env.GATSBY_DEPLOY_PRIME_URL || siteUrl}${image || defaultImage}`,
+        image: `${siteUrl}${image || defaultImage}`,
         url: `${siteUrl}${pathname}`,
     }
 

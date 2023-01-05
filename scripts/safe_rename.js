@@ -126,7 +126,7 @@ const main = async () => {
 
         const remoteConfig = await getRemoteConfig()
         const localConfig = await getLocalConfig()
-        const debug = process.env.DEBUG
+        const debug = ''
         const redirects = await getRedirects({ gitDiff, localConfig, remoteConfig, debug })
 
         if (redirects.length > 0) {
@@ -136,10 +136,6 @@ const main = async () => {
     } catch (error) {
         console.error(error)
     }
-}
-
-if (process.env.RUN_AS_SCRIPT === 'true') {
-    main()
 }
 
 module.exports = {

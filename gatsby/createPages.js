@@ -334,34 +334,6 @@ module.exports = exports.createPages = async ({ actions: { createPage }, graphql
     createPosts(result.data.apidocs.nodes, 'docs', ApiEndpoint, { name: 'Docs', url: '/docs' })
     createPosts(result.data.manual.nodes, 'docs', HandbookTemplate, { name: 'Using PostHog', url: '/using-posthog' })
 
-    const tutorialsPageViewExport = await fetch(
-        'https://app.posthog.com/shared/4lYoM6fa3Sa8KgmljIIHbVG042Bd7Q.json'
-    ).then((res) => res.json())
-
-    result.data.tutorials.nodes.forEach((node) => {
-        const tableOfContents = formatToc(node.headings)
-        const { slug } = node.fields
-        let pageViews
-        tutorialsPageViewExport.dashboard.items[0].result.some((insight) => {
-            if (insight.breakdown_value.includes(slug)) {
-                pageViews = insight.aggregated_value
-                return true
-            }
-        })
-
-        createPage({
-            path: replacePath(node.fields.slug),
-            component: TutorialTemplate,
-            context: {
-                id: node.id,
-                tableOfContents,
-                menu: result.data.sidebars.childSidebarsJson.docs,
-                pageViews,
-                slug,
-            },
-        })
-    })
-
     result.data.tutorials.categories.forEach(({ fieldValue }) => {
         const slug = `/tutorials/categories/${slugify(fieldValue, { lower: true })}`
         createPage({
@@ -499,46 +471,4 @@ module.exports = exports.createPages = async ({ actions: { createPage }, graphql
     })
 
     const menu = []
-
-    if (process.env.ASHBY_API_KEY && process.env.GITHUB_API_KEY) {
-        for (node of result.data.jobs.nodes) {
-            const { id, parent } = node
-            const slug = node.fields.slug
-            const team = parent?.customFields?.find(({ title, value }) => title === 'Team')?.value
-            const issues = parent?.customFields?.find(({ title, value }) => title === 'Issues')?.value?.split(',')
-            const repo = parent?.customFields?.find(({ title, value }) => title === 'Repo')?.value
-            let gitHubIssues = []
-            if (issues) {
-                for (const issue of issues) {
-                    const { html_url, number, title, labels } = await fetch(
-                        `https://api.github.com/repos/${repo}/issues/${issue.trim()}`,
-                        {
-                            headers: {
-                                Authorization: `token ${process.env.GITHUB_API_KEY}`,
-                            },
-                        }
-                    ).then((res) => res.json())
-                    gitHubIssues.push({
-                        url: html_url,
-                        number,
-                        title,
-                        labels,
-                    })
-                }
-            }
-            createPage({
-                path: slug,
-                component: Job,
-                context: {
-                    id,
-                    slug,
-                    teamName: team,
-                    teamNameInfo: `${team} Team`,
-                    objectives: `/handbook/small-teams/${slugify(team, { lower: true })}/objectives`,
-                    mission: `/handbook/small-teams/${slugify(team, { lower: true })}/mission`,
-                    gitHubIssues,
-                },
-            })
-        }
-    }
 }

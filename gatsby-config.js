@@ -154,7 +154,7 @@ module.exports = {
                     {
                         resolve: './plugins/gasby-remark-lazy-imgix',
                         options: {
-                            imgixHost: process.env.CONTEXT === 'production' ? 'posthog.imgix.net' : null,
+                            imgixHost: null,
                             maxWidth: 700,
                         },
                     },

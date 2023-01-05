@@ -267,19 +267,7 @@ npm i -S posthog-js
 
 Create a new file, `utils/initPostHog.js`, and within it add code to initialize the PostHog JavaScript client:
 
-```js
-import posthog from 'posthog-js'
 
-export const initPostHog = () => {
-    if (typeof window !== 'undefined') {
-        posthog.init(process.env.NEXT_PUBLIC_POSTHOG_API_KEY, {
-            api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
-        })
-    }
-
-    return posthog
-}
-```
 
 The file exports a single function, `initPostHog`, that checks to ensure that the current runtime is the browser and, if so, initializes the PostHog JavaScript client with the config we've just stored. It also returns the `posthog` client instance so we can use within our app.
 

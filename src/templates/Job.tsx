@@ -5,9 +5,6 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import Link from 'components/Link'
 import { CompensationCalculator } from 'components/CompensationCalculator'
-import InterviewProcess from 'components/Job/InterviewProcess'
-import Apply from 'components/Job/Apply'
-import Sidebar from 'components/Job/Sidebar'
 import { sfBenchmark } from 'components/CompensationCalculator/compensation_data/sf_benchmark'
 import { benefits } from 'components/Careers/Benefits'
 import NotProductIcons from 'components/NotProductIcons'
@@ -115,14 +112,6 @@ export default function Job({
                     ]}
                     hideSearch
                     hideSurvey
-                    sidebar={
-                        <Sidebar
-                            teamSlug={teamInfo?.fields?.slug}
-                            teamName={teamName}
-                            team={team?.nodes}
-                            teamLead={teamLead}
-                        />
-                    }
                     title="careers"
                     menu={menu}
                 >
@@ -241,14 +230,10 @@ export default function Job({
                                     </Accordion>
                                 )}
                                 <Accordion title="Interview process" id="interview-process">
-                                    <div className="mb-6">
-                                        <InterviewProcess role={title} />
-                                    </div>
+                                    <div className="mb-6"></div>
                                 </Accordion>
                                 <Accordion title="Apply" id="apply">
-                                    <div className="mb-6">
-                                        <Apply id={id} info={info} />
-                                    </div>
+                                    <div className="mb-6"></div>
                                 </Accordion>
                             </div>
                         </div>

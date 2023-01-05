@@ -13,14 +13,8 @@ module.exports = exports.createPages = async ({ actions: { createPage }, graphql
     const AppTemplate = path.resolve(`src/templates/App.js`)
     const ProductTemplate = path.resolve(`src/templates/Product.js`)
     const HostHogTemplate = path.resolve(`src/templates/HostHog.js`)
-    const Question = path.resolve(`src/templates/Question.js`)
-    const SqueakTopic = path.resolve(`src/templates/SqueakTopic.tsx`)
-    const Job = path.resolve(`src/templates/Job.tsx`)
 
-    // Tutorials
-    const TutorialTemplate = path.resolve(`src/templates/tutorials/Tutorial.tsx`)
-    const TutorialsCategoryTemplate = path.resolve(`src/templates/tutorials/TutorialsCategory.tsx`)
-    const TutorialsAuthorTemplate = path.resolve(`src/templates/tutorials/TutorialsAuthor.tsx`)
+    const Job = path.resolve(`src/templates/Job.tsx`)
 
     // Docs
     const ApiEndpoint = path.resolve(`src/templates/ApiEndpoint.tsx`)

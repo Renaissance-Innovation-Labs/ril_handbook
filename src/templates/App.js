@@ -6,7 +6,6 @@ import Layout from 'components/Layout'
 import Link from 'components/Link'
 import { Section } from 'components/Section'
 import { SEO } from 'components/seo'
-import TutorialsSlider from 'components/TutorialsSlider'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import GithubSlugger from 'github-slugger'
@@ -68,11 +67,7 @@ export default function App({ data, pageContext: { next, previous } }) {
                     <div className="lg:max-w-[880px] lg:pr-5 px-5 lg:px-0 mx-auto">
                         <h1 className="text-center mt-0 mb-12 hidden lg:block">{title}</h1>
                         <GatsbyImage image={getImage(featuredImage)} alt="" />
-                        <article>
-                            <MDXProvider components={{ ...shortcodes, Section, TutorialsSlider, Documentation }}>
-                                <MDXRenderer>{body}</MDXRenderer>
-                            </MDXProvider>
-                        </article>
+                        <article></article>
                         <div className="mt-12">
                             <SectionLinks next={next} previous={previous} />
                         </div>

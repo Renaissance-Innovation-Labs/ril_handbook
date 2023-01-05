@@ -60,9 +60,9 @@ module.exports = {
                 gatsbyRemarkPlugins: [
                     `gatsby-remark-static-images`,
                     { resolve: 'gatsby-remark-autolink-headers', options: { icon: false } },
-                    {
-                        resolve: require.resolve(`./plugins/gatsby-remark-mermaid`),
-                    },
+                    // {
+                    //     resolve: require.resolve(`./plugins/gatsby-remark-mermaid`),
+                    // },
                 ],
                 plugins: [`gatsby-remark-static-images`],
             },
@@ -112,10 +112,6 @@ module.exports = {
         },
         {
             resolve: `gatsby-source-strapi-pages`,
-            options: {
-                strapiURL: process.env.STRAPI_URL,
-                strapiKey: process.env.STRAPI_API_KEY,
-            },
         },
         `gatsby-plugin-image`,
         'gatsby-transformer-sharp',

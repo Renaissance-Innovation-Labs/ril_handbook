@@ -7,7 +7,6 @@ import Layout from 'components/Layout'
 import Link from 'components/Link'
 import { Section } from 'components/Section'
 import { SEO } from 'components/seo'
-import TutorialsSlider from 'components/TutorialsSlider'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
@@ -189,21 +188,7 @@ export default function Product({ data, location }) {
                         <h2 className="text-5xl m-0 mb-5">{subtitle}</h2>
                         <GatsbyImage image={getImage(featuredImage)} />
                     </Container>
-                    <div className="article-content">
-                        <MDXProvider
-                            components={{
-                                ...shortcodes,
-                                Section,
-                                TutorialsSlider,
-                                Documentation,
-                                Container,
-                                Check: (props) => <Check2 className="w-5 h-5 mx-auto" {...props} />,
-                                Close: (props) => <Close opacity="1" className="w-4 h-4 mx-auto" {...props} />,
-                            }}
-                        >
-                            <MDXRenderer>{body}</MDXRenderer>
-                        </MDXProvider>
-                    </div>
+                    <div className="article-content"></div>
                 </article>
                 <CTA />
             </PostLayout>

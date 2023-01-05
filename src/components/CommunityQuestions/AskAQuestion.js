@@ -45,14 +45,6 @@ export default function AskAQuestion() {
                                 slug: location.pathname,
                                 timestamp,
                             })
-                            fetch('/.netlify/functions/ask-a-question', { method: 'POST', body })
-                                .then((res) => res.json())
-                                .then((data) => {
-                                    posthog.capture('Question asked')
-                                    setTimestamp(data.timestamp)
-                                    setEmailSubmitted(true)
-                                    setSubmitting(false)
-                                })
                         }}
                     >
                         {({ isSubmitting, isValid, values, setFieldValue, submitForm }) => {

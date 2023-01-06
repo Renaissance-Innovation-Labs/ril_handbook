@@ -70,6 +70,8 @@ module.exports = async (
             })
         )
     } finally {
+        await page.close()
+        await browser.close()
         if (browser) {
             await browser.close()
         }

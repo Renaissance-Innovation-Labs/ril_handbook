@@ -1,3 +1,3 @@
-import Home from '../components/Home'
+import Handbook from './handbook'
 
-export default Home
+export default Handbook

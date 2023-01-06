@@ -15,7 +15,7 @@ interface ColMenuItems {
 }
 
 export default function Docs({ referenceElement }: { referenceElement: HTMLDivElement }) {
-    const { topicGroups } = useStaticQuery(query)
+    // const { topicGroups } = useStaticQuery(query)
 
     const resources: ColMenuItems[] = [
         {
@@ -67,9 +67,11 @@ export default function Docs({ referenceElement }: { referenceElement: HTMLDivEl
                                     <h3 className="text-[18px] opacity-70 m-0 md:mr-6 text-black">
                                         Community questions
                                     </h3>
-                                    <CallToAction to="/questions">Ask a question</CallToAction>
+                                    <CallToAction to="/questions" className="">
+                                        Ask a question
+                                    </CallToAction>
                                 </div>
-                                <ul className="grid grid-cols-3 m-0 p-0 list-none mt-2">
+                                {/* <ul className="grid grid-cols-3 m-0 p-0 list-none mt-2">
                                     {topicGroups.nodes.map(({ label, topics }) => {
                                         return (
                                             topics.length > 0 && (
@@ -97,7 +99,7 @@ export default function Docs({ referenceElement }: { referenceElement: HTMLDivEl
                                             )
                                         )
                                     })}
-                                </ul>
+                                </ul> */}
                             </div>
 
                             <div className="md:mr-2 mt-2">

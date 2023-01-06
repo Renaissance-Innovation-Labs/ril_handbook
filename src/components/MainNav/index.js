@@ -52,14 +52,15 @@ export default function MainNav() {
                         ref={setReferenceElement}
                         className="z-50 flex justify-between lg:items-center items-start flex-col lg:flex-row bg-white dark:bg-gray-accent-dark lg:bg-transparent lg:dark:bg-transparent font-nav lg:py-0 py-5 text-white lg:dark:text-white lg:text-almost-black max-w-screen-3xl mx-auto lg:-mx-3"
                     >
-                        <ul className="flex-1 flex flex-col lg:flex-row list-none m-0 p-0 w-full space-x-[1px] lg:w-auto">
+                        {/* <ul className="flex-1 flex flex-col lg:flex-row list-none m-0 p-0 w-full space-x-[1px] lg:w-auto">
                             {menu.slice(0, halfMenu).map((menuItem, index) => {
                                 return <MenuItem referenceElement={referenceElement} key={index} menuItem={menuItem} />
                             })}
-                        </ul>
+                        </ul> */}
                         {!breakpoints.md && (
                             <Link
-                                className="text-primary hover:text-primary dark:text-primary-dark dark:hover:text-primary-dark hidden lg:block 
+                                className="
+                                mx-auto text-primary hover:text-primary dark:text-primary-dark dark:hover:text-primary-dark hidden lg:block 
                                 relative
                                 hover:scale-[1.01]
                                 active:top-[0.5px]
@@ -69,11 +70,11 @@ export default function MainNav() {
                                 <Logo />
                             </Link>
                         )}
-                        <ul className="flex-1 flex flex-col lg:flex-row list-none m-0 p-0 w-full lg:w-auto justify-end">
+                        {/* <ul className="flex-1 flex flex-col lg:flex-row list-none m-0 p-0 w-full lg:w-auto justify-end">
                             {menu.slice(halfMenu, menu.length).map((menuItem, index) => {
                                 return <MenuItem referenceElement={referenceElement} key={index} menuItem={menuItem} />
                             })}
-                        </ul>
+                        </ul> */}
                     </div>
                 </motion.nav>
             )}

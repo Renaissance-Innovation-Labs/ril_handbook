@@ -280,13 +280,13 @@ const FooterMenuItem = ({ title, url, className = '', marginBottom = '1' }) => {
 
 export function Footer(): JSX.Element {
     const social: Social[] = [
-        {
-            Icon: <SlackMonochrome className="w-8 h-8 box-border fill-current" />,
-            url: '/slack',
-        },
+        // {
+        //     Icon: <SlackMonochrome className="w-8 h-8 box-border fill-current" />,
+        //     url: '/slack',
+        // },
         {
             Icon: <Twitter className="w-8 h-8 box-border fill-current" />,
-            url: 'https://twitter.com/posthog',
+            url: 'https://twitter.com/RxLabsHQ',
         },
         {
             Icon: (
@@ -294,29 +294,29 @@ export function Footer(): JSX.Element {
                     <LinkedIn className="w-8 h-8 box-border" />
                 </span>
             ),
-            url: 'https://www.linkedin.com/company/posthog',
+            url: 'https://www.linkedin.com/company/renaissance-innovation-labs/',
         },
-        {
-            Icon: (
-                <span className="fill-current">
-                    <YouTube className="w-8 h-8 box-border" />
-                </span>
-            ),
-            url: 'https://www.youtube.com/channel/UCn4mJ4kK5KVSvozJre645LA',
-        },
+        // {
+        //     Icon: (
+        //         <span className="fill-current">
+        //             <YouTube className="w-8 h-8 box-border" />
+        //         </span>
+        //     ),
+        //     url: 'https://www.youtube.com/channel/UCn4mJ4kK5KVSvozJre645LA',
+        // },
         {
             Icon: (
                 <span className="fill-current">
                     <GitHub className="w-8 h-8 box-border" />
                 </span>
             ),
-            url: 'https://github.com/PostHog',
+            url: 'https://github.com/Renaissance-Innovation-Labs',
         },
     ]
 
     return (
         <footer className="mt-20 border-t border-dashed border-gray-accent-light dark:border-gray-accent-dark">
-            <div className="relative">
+            {/* <div className="relative">
                 <div className="relative -top-6">
                     <Link
                         to="/"
@@ -325,13 +325,13 @@ export function Footer(): JSX.Element {
                         <span className="inline-block">{ProductIcons.posthogMonochrome}</span>
                     </Link>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="grid grid-cols-2 md:grid-cols-3 border-r border-dashed border-gray-accent-light dark:border-gray-accent-dark lg:border-r-0 last:border-r-0 lg:grid-cols-6 w-full max-w-screen-2xl mx-auto">
+            {/* <div className="grid grid-cols-2 md:grid-cols-3 border-r border-dashed border-gray-accent-light dark:border-gray-accent-dark lg:border-r-0 last:border-r-0 lg:grid-cols-6 w-full max-w-screen-2xl mx-auto">
                 {linklist.map((item) => (
                     <LinkListItem {...item} key={item.url} />
                 ))}
-            </div>
+            </div> */}
 
             <div className="flex lg:border-t border-gray-accent-light dark:border-gray-accent-dark border-dashed justify-center">
                 <ul className="list-none px-0 py-2 flex space-x-4">
@@ -351,10 +351,10 @@ export function Footer(): JSX.Element {
             </div>
             <div className="py-5 border-t border-dashed border-gray-accent-light dark:border-gray-accent-dark border-l-0 border-r-0">
                 <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center text-lg px-5">
-                    <small className="font-semibold dark:text-gray">
-                        &copy; {new Date().getFullYear()} PostHog, Inc.
+                    <small className="font-semibold dark:text-gray mx-auto">
+                        &copy; {new Date().getFullYear()} Renaissance Innovation Labs
                     </small>
-                    <ul className="m-0 p-0 list-none sm:ml-auto flex sm:space-x-8 space-x-4 mt-2 sm:mt-0">
+                    {/* <ul className="m-0 p-0 list-none sm:ml-auto flex sm:space-x-8 space-x-4 mt-2 sm:mt-0">
                         <li>
                             <Link
                                 to="/docs/contribute/code-of-conduct"
@@ -379,7 +379,7 @@ export function Footer(): JSX.Element {
                                 Terms
                             </Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </footer>

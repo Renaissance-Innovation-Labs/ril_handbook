@@ -334,28 +334,6 @@ module.exports = exports.createPages = async ({ actions: { createPage }, graphql
     createPosts(result.data.apidocs.nodes, 'docs', ApiEndpoint, { name: 'Docs', url: '/docs' })
     createPosts(result.data.manual.nodes, 'docs', HandbookTemplate, { name: 'Using PostHog', url: '/using-posthog' })
 
-    result.data.tutorials.categories.forEach(({ fieldValue }) => {
-        const slug = `/tutorials/categories/${slugify(fieldValue, { lower: true })}`
-        createPage({
-            path: slug,
-            component: TutorialsCategoryTemplate,
-            context: {
-                activeFilter: fieldValue,
-            },
-        })
-    })
-
-    result.data.tutorials.contributors.forEach(({ fieldValue }) => {
-        const slug = `/tutorials/contributors/${slugify(fieldValue, { lower: true })}`
-        createPage({
-            path: slug,
-            component: TutorialsAuthorTemplate,
-            context: {
-                activeFilter: fieldValue,
-            },
-        })
-    })
-
     result.data.blogPosts.nodes.forEach((node) => {
         const { slug } = node.fields
         const postCategories = node.frontmatter.categories || []

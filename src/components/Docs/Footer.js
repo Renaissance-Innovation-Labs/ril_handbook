@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Contributors from './Contributors'
 import { Edit, Issue } from 'components/Icons/Icons'
 import { DocsPageSurvey } from 'components/DocsPageSurvey'
 
@@ -25,10 +24,6 @@ export default function Footer({ contributors, filePath, title }) {
                             contributors && (
                                 <div className="my-10">
                                     <h3 className="text-lg text-white">Contributors</h3>
-                                    <Contributors
-                                        className="list-none m-0 p-0 flex space-x-2 mt-2 flex-wrap"
-                                        contributors={contributors}
-                                    />
                                 </div>
                             )
                         }

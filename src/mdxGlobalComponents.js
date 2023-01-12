@@ -25,13 +25,6 @@ import { Breadcrumbs } from './components/Breadcrumbs'
 import { CallToAction } from './components/CallToAction'
 import { Caption } from './components/Caption'
 import { Card } from './components/Card'
-import { Benefits } from './components/Careers/Benefits'
-import { CareersHero } from './components/Careers/CareersHero'
-import { InterviewProcess } from './components/Careers/InterviewProcess'
-import { OpenRoles } from './components/Careers/OpenRoles'
-import { Transparency } from './components/Careers/Transparency'
-import { WhyWereHere } from './components/Careers/WhyWereHere'
-import { WorkingAtPostHog } from './components/Careers/WorkingAtPostHog'
 import { Checkbox } from './components/Checkbox'
 import { Chip } from './components/Chip'
 import { CodeBlock } from './components/CodeBlock'
@@ -142,13 +135,6 @@ export const shortcodes = {
     CallToAction,
     Caption,
     Card,
-    Benefits,
-    CareersHero,
-    InterviewProcess,
-    OpenRoles,
-    Transparency,
-    WhyWereHere,
-    WorkingAtPostHog,
     Checkbox,
     Chip,
     CodeBlock,

@@ -259,11 +259,7 @@ export default function Handbook({
                     searchFilter={searchFilter}
                     title={title}
                     filePath={filePath}
-                    questions={
-                        <div id="squeak-questions" className="pb-8">
-                            <CommunityQuestions />
-                        </div>
-                    }
+                    questions={<div id="squeak-questions" className="pb-8"></div>}
                     menu={menu}
                     sidebar={
                         <HandbookSidebar

@@ -439,13 +439,7 @@ const NextPost = ({ contentContainerClasses = '', excerpt, frontmatter, fields }
 }
 
 const Survey = ({ contentContainerClasses = '' }) => {
-    return (
-        <div className="py-8 border-t border-gray-accent-light dark:border-gray-accent-dark border-dashed">
-            <div className={contentContainerClasses}>
-                <DocsPageSurvey />
-            </div>
-        </div>
-    )
+    return <div></div>
 }
 
 export default function PostLayout({

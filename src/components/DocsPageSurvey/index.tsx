@@ -37,16 +37,7 @@ const ResponseButtons: React.FC<{ submitResponse: (helpful: boolean) => void }> 
     return (
         <>
             <h3 className="text-xl font-bold m-0 mb-3">Was this page useful?</h3>
-            <div className="flex space-x-3 items-center">
-                <button onClick={() => submitResponse(true)} className={button}>
-                    <span>Yes</span>
-                    <ThumbsUp />
-                </button>
-                <button onClick={() => submitResponse(false)} className={button}>
-                    <span>Could be better</span>
-                    <ThumbsDown />
-                </button>
-            </div>
+            <div className="flex space-x-3 items-center"></div>
         </>
     )
 }

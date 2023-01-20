@@ -18,7 +18,7 @@ export default function Team() {
                 const {
                     id,
                     body,
-                    frontmatter: { headshot, jobTitle, name, country, github },
+                    frontmatter: { headshot, jobTitle, name },
                 } = teamMember
                 const title = `${name}, ${jobTitle}`
                 const image = getImage(headshot)
@@ -27,7 +27,7 @@ export default function Team() {
                         <div className="team-row">
                             <div className="team-left-text">
                                 <h3 id={kebabCase(name) + '-' + kebabCase(jobTitle)}>{title}</h3>
-                                <GithubIcon username={github} />
+
                                 <div className="team-left-bio">
                                     <MDXProvider components={shortcodes}>
                                         <MDXRenderer>{body}</MDXRenderer>
@@ -45,9 +45,9 @@ export default function Team() {
                                     alt={title}
                                     title={title}
                                 />
-                                <span className="absolute mt-8 top-2 right-2 text-4xl sm:text-4xl">
+                                {/* <span className="absolute mt-8 top-2 right-2 text-4xl sm:text-4xl">
                                     {country === 'world' ? '🌎' : <ReactCountryFlag svg countryCode={country} />}
-                                </span>
+                                </span> */}
                             </div>
                         </div>
                     </li>
@@ -71,8 +71,6 @@ const query = graphql`
                     }
                     jobTitle
                     name
-                    country
-                    github
                 }
             }
         }

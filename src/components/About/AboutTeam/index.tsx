@@ -99,7 +99,6 @@ const query = graphql`
         ) {
             nodes {
                 frontmatter {
-                    country
                     name
                     headshot {
                         childImageSharp {

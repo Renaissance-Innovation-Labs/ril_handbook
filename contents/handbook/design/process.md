@@ -69,11 +69,3 @@ For creating amazing UX/UI interfaces, one requires to follow a systematic and o
 The entire design team will be playing their part in the process. This is one of the best ways to retain our existing customers and attract new ones in this highly competitive world.
 
 
-
-<!-- 
-## People
-
-| Name         | Role             | Team(s) |
-|--------------|------------------|-----------------|
-| [Lottie Coxon](/handbook/company/team#lottie-coxon-graphic-designer) | Graphic Designer | Website & Docs, Marketing  |
-| [Cory Watilo](/handbook/company/team/#cory-watilo-lead-designer) (Team lead)  | Design Lead      | App teams, Website & Docs  | -->

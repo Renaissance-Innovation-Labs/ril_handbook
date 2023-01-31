@@ -52,28 +52,12 @@
             "url": "",
             "children": [
                 {
-                    "name": "Marketing",
-                    "url": "/handbook/strategy/marketing"
+                    "name": "Overview",
+                    "url": "/handbook/strategy/overview"
                 },
                 {
-                    "name": "Ideal Customer Persona",
-                    "url": "/handbook/strategy/ideal-customer-persona"
-                },
-                {
-                    "name": "Business model",
-                    "url": "/handbook/strategy/business-model"
-                },
-                {
-                    "name": "Objectives",
-                    "url": "/handbook/strategy/objectives"
-                },
-                {
-                    "name": "Roadmap",
-                    "url": "/roadmap"
-                },
-                {
-                    "name": "Brand",
-                    "url": "/handbook/strategy/brand"
+                    "name": "Direction",
+                    "url": "/handbook/strategy/direction"
                 }
             ]
         },
@@ -174,6 +158,24 @@
                 {
                     "name": "Product design process",
                     "url": "/handbook/design/process"
+                }
+            ]
+        },
+        {
+            "name": "Sales & marketing",
+            "url": "",
+            "children": [
+                {
+                    "name": "Overview",
+                    "url": "/handbook/growth/marketing"
+                },
+                {
+                    "name": "Sales",
+                    "url": "/handbook/growth/marketing/sales"
+                },
+                {
+                    "name": "Co Work-Space",
+                    "url": "/handbook/growth/marketing/co-work-space"
                 }
             ]
         }

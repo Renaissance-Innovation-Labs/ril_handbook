@@ -9,9 +9,14 @@ These Processes govern our Mode of Operations.
 
 1. Consequence Matrix 
 
+| OFFENSE         | FIRST TIME OFFENSE/LOW IMPACT     | SECOND TIME OFFENSE/MEDIUM IMPACT | THIRD TIME OFFENSE/HIGH IMPACT|
+|--------------|------------------|-----------------|-----------------|
+Impact on Fellow staff/ company’s culture, assets, finances and public image. | FIRST TIME OFFENSE/LOW IMPACT (little/no impact on avoidable financial/asset/human loss, threat to life/person, stain on company image/statutory & regulatory compliance) | SECOND TIME OFFENSE/MEDIUM IMPACT (significant avoidable financial/asset/human loss, threat to life/person, irreversible stain on company image statutory & regulatory compliance) | THIRD TIME OFFENSE/HIGH IMPACT (irreversible avoidable financial/asset/human loss, threat to life/person, irreparable stain on company image/statutory & regulatory compliance)
 
 
 
+
+### Process
 
 | OFFENSE         | FIRST TIME OFFENSE/LOW IMPACT     | SECOND TIME OFFENSE/MEDIUM IMPACT | THIRD TIME OFFENSE/HIGH IMPACT|
 |--------------|------------------|-----------------|-----------------|

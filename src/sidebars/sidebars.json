@@ -35,7 +35,7 @@
                 },
                 {
                     "name": "Investors",
-                    "url": "/handbook/strategy/investors"
+                    "url": "/handbook/company/investors"
                 },
                 {
                     "name": "Basic Process",
@@ -151,10 +151,6 @@
             "name": "Design",
             "url": "",
             "children": [
-                {
-                    "name": "Our philosophy",
-                    "url": "/handbook/design/philosophy"
-                },
                 {
                     "name": "Product design process",
                     "url": "/handbook/design/process"

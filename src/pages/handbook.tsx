@@ -13,17 +13,22 @@ const otherLinks = [
         links: [
             { name: 'Story', to: '/handbook/company/story' },
             { name: 'Team', to: '/handbook/company/team' },
-            { name: 'Investors', to: '/handbook/strategy/investors' },
-            { name: 'Process', to: '/handbook/strategy/investors' },
+            { name: 'Investors', to: '/handbook/company/investors' },
+            { name: 'Basic Process', to: '/handbook/company/process' },
+            { name: 'Working With Trello', to: '/handbook/company/trello' },
         ],
     },
     {
         name: 'Strategy',
         links: [
-            { name: 'Culture', to: '/handbook/company/culture' },
-            { name: 'Values', to: '/handbook/company/values' },
-            { name: 'Team structure', to: '/handbook/company/small-teams' },
-            { name: 'Management', to: '/handbook/company/management' },
+            {
+                name: 'Overview',
+                to: '/handbook/strategy/overview',
+            },
+            {
+                name: 'Direction',
+                to: '/handbook/strategy/direction',
+            },
         ],
     },
     {
@@ -59,10 +64,6 @@ const otherLinks = [
         name: 'Product',
         links: [
             {
-                name: 'Overview',
-                to: '/handbook/product/product-team',
-            },
-            {
                 name: 'Finza',
                 to: '/handbook/product/metrics',
             },
@@ -84,16 +85,8 @@ const otherLinks = [
         name: 'Design',
         links: [
             {
-                name: 'Our philosophy',
-                to: '/handbook/design/philosophy',
-            },
-            {
                 name: 'Product Design process',
                 to: '/handbook/design/process',
-            },
-            {
-                name: 'Designing posthog.com',
-                to: '/handbook/design/designing-posthog-website',
             },
         ],
     },

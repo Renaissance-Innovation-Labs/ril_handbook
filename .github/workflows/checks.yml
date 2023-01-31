@@ -31,7 +31,7 @@ jobs:
 
             - name: Configure Git
               run: |
-                  git fetch origin master:master
+                  git fetch origin main:main
                   git config user.name PostHog Bot
                   git config user.email hey@posthog.com
 
@@ -63,14 +63,14 @@ jobs:
               run: yarn test-redirects
             - name: Configure Git
               run: |
-                  git fetch origin master:master
+                  git fetch origin main:main
                   git config user.name PostHog Bot
                   git config user.email hey@posthog.com
             - name: Add safe redirects
-              if: ${{ github.base_ref == 'master' }}
+              if: ${{ github.base_ref == 'main' }}
               run: yarn generate-redirects
             - name: Cleanup and commit
-              if: ${{ github.base_ref == 'master' }}
+              if: ${{ github.base_ref == 'main' }}
               run: |
                   rm pr_diff
                   git add netlify.toml

@@ -10,7 +10,7 @@ export const TotalCountries: React.FC = (props) => {
 const query = graphql`
     query {
         countries: allMdx(filter: { fields: { slug: { regex: "/^/team/" } } }) {
-            group(field: frontmatter___country) {
+            group(field: frontmatter___city) {
                 totalCount
             }
         }

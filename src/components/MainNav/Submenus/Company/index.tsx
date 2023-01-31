@@ -134,7 +134,7 @@ const query = graphql`
     {
         teamMembers: allMdx(filter: { fields: { slug: { regex: "/^/team/" } } }) {
             totalCount
-            group(field: frontmatter___country) {
+            group(field: frontmatter___city) {
                 fieldValue
             }
         }

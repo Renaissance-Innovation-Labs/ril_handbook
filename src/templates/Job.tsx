@@ -249,7 +249,6 @@ export const query = graphql`
             id
             frontmatter {
                 name
-                country
                 jobTitle
                 headshot {
                     id
@@ -264,7 +263,6 @@ export const query = graphql`
                 id
                 frontmatter {
                     name
-                    country
                     jobTitle
                     pineappleOnPizza
                     headshot {

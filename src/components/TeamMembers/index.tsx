@@ -65,7 +65,6 @@ const query = graphql`
                     team
                     jobTitle
                     name
-                    country
                     github
                     teamLead
                 }

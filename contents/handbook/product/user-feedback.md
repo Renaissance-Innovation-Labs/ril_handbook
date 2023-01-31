@@ -1,73 +1,113 @@
 ---
-title: User feedback
+title: Demo App
 sidebar: Handbook
 showTitle: true
 ---
 
-Gathering user feedback is critical for the development of our product. It's not about casually listening to users, or just paying attention to bug reports, we actively seek (outbound) input in everything we work on. In addition to having multiple channels to continuously receive inbound feedback, we generally do active outbound feedback requests for:
-- General product and experience feedback. Continuous effort to gather general feedback on the product and their holistic experience with PostHog. Usually run by the [Feedback Hero](#feedback-hero).
-- Usability tests. We generally run these for new big features the Engineering team is working on. Usually run by the Product Team.
+## Overview
 
-> 😍 Want to share feedback? [File a GitHub issue](https://github.com/PostHog) or reach out on [Slack](/slack). **We're always happy to hear from you!**
+**Goal:** This project is to create a demo tour for various deposit products stated on the website 
+ 
+**How it works:**
 
+When users launch a deposit website, users should be able to view the various products on the website with a tour section for each application
 
-### Beta Testers
-We have a group in our [community Slack](/slack) called #beta-testers for engaged community users and paying customers who are keen to give feedback on our product in order to improve it for themselves and other users.
+The tour’s goal is to give clients various user perspectives and how each user can use the application. The tour will have screens, tooltips and short stories to explain how that screen works. It will also include a function to show how the color customization feature works on the applications and where these colors affect.
 
-If you would like to get feedback on something you're building, share details and the feedback you'd like to receive with this group. Be mindful that we shouldn't overburden the group with lots of small changes. Instead, focus on getting feedback we really need to make better decisions. We should also follow up with the beta-testers later on to show them how their feedback has helped build a better product.
-
-### Feedback call process
-
-**Scheduling**
-- Make sure all feedback calls are registered in the [User interviews calendar](https://calendar.google.com/calendar/?cid=Y19tczllaWN1Ym92ZGgxYWhzNmtoY2xpNTQ3b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). If the invite was created from your own calendar, you can simply add "User interviews" as an invitee.
-- Notify team members of upcoming calls in the [#product](https://posthog.slack.com/archives/C01RJ7T212S) channel to invite them to join, unless the call is intended for specific members (e.g. a usability test usually involves the engineer(s) who built the feature).
-- Not a hard rule, but it's usually good to limit the number of team members (around two) joining from our side to foment a more intimate chat. 
+The Demo will be scalable, clear and explainable. 
 
 
-**During the call**
-- Do a quick round of intros if you haven't met previously.
-- Chat informally with the user to build rapport and gather some initial context (it will greatly improve the quality of the feedback!).
-- Ask the user if it's okay to record the conversation (mention we only use internally and keep for 3 months maximum).
-- If this is the first interview with the user, ask them for context about their company, their role, if they're technical.
-- The topics of the conversation are usually better informed from the previous step. It's always more helpful to talk about topics where the user has had more experience. It's however always useful to consider what we're currently working on at Product/Growth/Marketing and ask questions that could help each team do a better job.
+##	Project Team/ Stakeholders
+
+- Product Owner:                  Samson Aligba 
+- Project Manager:	           Lemon Barry
+- Approved by: 		
+- Secondary approval:
 
 
-**After the call**
-1. Upload the recording to the [recordings folder][recordings], be sure to follow naming conventions.
-2. Add the notes to the [Google Doc][feedback-doc], linking the recording. Try to keep them as clean as possible.
-3. If the user reported specific bug reports or specific feature requests, open the relevant issues in GitHub. Be sure to link to their Orbit and/or Hubspot record in case Engineering needs more context when scoping/building.
-4. Generate the reward for the user (see below).
-   1. Most of the time, the reward will be a gift card for the [PostHog merch store](https://merch.posthog.com/). If it's the case, create the gift card in Shopify. Make sure to **add a link to their Orbit profile** in the notes section and set the **default expiration date** (5 years), and make note of the gift card code.
-5. Register call on Orbit. Remember to link the notes, add appropriate labels (e.g. `received merch`) and information on the rewards sent.
-6. If the customer is Sales/Scale, register the call on Hubspot too (but linking to Google doc notes).
-7. Follow-up with the user. Send any applicable rewards, links to any opened GitHub issues, and answers to any outstanding questions.
+
+## Core User Stories
 
 
-### Rewards 
-We strongly value our users' time. We particularly acknowledge the value it provides us in building a better product. As such, we usually send a small gift of appreciation. We have the following general _guidelines_, but just use your best judgement.
-- Generally we send users a gift card to the merch store with around $50 of value.
-- When the above is not an option (e.g. shipping restrictions, user has received merch already) we default to Amazon gift cards. Use your Brex card to purchase these (and remember to follow our [spending guidelines](/handbook/people/spending-money)). Contact Paolo to join our Amazon Business account.
-    > To avoid operationally complexity, we try to send only Amazon US cards, but generally sending cards on Amazon UK, IT, DE, MX or BR has worked in the past. Due to card restrictions, **we can't support Amazon IN**.
+**Demo Product**
+
+As a user, I want the demo product to be able to able to provide for the below:
+
+To able to view a demo landing page with tour button to direct the various user perspective available for the demo product
+I want to go through the different user journey with the below features on the demo template
+An interactive screen
+Short story to describe each screen
+Tool tips on where to navigate to
+Color customization
+
+**Money app Demo**
+
+As a user, I want to be able to
+1. View the demo landing page with the various user type for the demo
+    - Users should be able to start demo for each user type and view various screen on how the app works for each user type
+1. View screen for the product in which the demo is for.
+    - Below are sample screen we will use for this demo
+        - **Screen 1**: 
+        View Dashboard with wallet balance and other features
+        - **Screen 2**: 
+        View journey on how money can be sent with a use case of sending to a friend
+        - **Screen 3**:
+        View journey on how user can top up account 
+        - **Screen 4**:
+        View a journey on how bank is linked to receive paychecks
+
+1. View Story box
+
+    - Users should be able to view comment screen that will allow client add content for the desired screen to explain what the screen is about
+
+1. View ToolTip
+
+    - Users should be able to view tooltip that informs the user on where to click on or what to pay attention to
+    - Text on tooltip can be editable to suit clients 
+
+1. View Color Customization palette
+
+    1. Users should be able to view color palette with the below color
+        - Red 
+        - orange 
+        - yellow 
+        - green 
+        - blue 
+        - indigo violet
+        
+    1. Users should be able to view the areas the color customization affects. Customization available in money app:
+        - Logo & Accent colors
+        - Icons
+        - Buttons
+        - Typography
+        - Toggles & Tabs
+        - Custom fields
+        - More… 
+
+    1. Users should be able to click on each color and affected area changes based on the selected color
 
 
-### Repositories of information 
-We keep a log (written notes without PII) of user feedback to continuously aid in the product development process. Recordings are kept at most 3 months to respect our user's privacy. User feedback is registered in the following places:
-- **Feedback notes.** Feedback notes are mainly kept in this [Google doc][feedback-doc].
-- **Feedback records.** Our source of truth for records of users who we have interviewed is [Orbit](https://app.orbit.love/posthog/activities?activity_type=custom%3AFeedback+call&affiliation=member). 
-- **Feedback records for Scale/Enterprise/Focus customers.** For Scale customers or sales-focused customers, we also register any records on **Hubspot** (and link the relevant notes/Orbit record). This is not intended as a source of truth for the scope of feedback calls, but rather for the benefits of team members doing sales efforts.
-- **Recordings.** All recordings are kept in [this folder][recordings] in the Product shared drive. Recordings are kept for up to 3 months.
-- **Usability tests.** As usability tests are done with a specific focus, we create issues for each feature in the product-internal repo ([example](https://github.com/PostHog/product-internal/issues/157)). Notes related to this issue  only are kept in their respective issue. Recordings are still kept in the same folder, as well as the appropriate Orbit record. 
 
-### Additional notes
-Any PostHog team member may receive feedback at any time, whether doing sales, customer support, on forums outside of PostHog or even friends & family. If you receive feedback for PostHog, it's important to **share it with the rest of the team.** To do so, just add it to our [feedback doc][feedback-doc].
+## App Client Doc
 
-Some feedback is particularly worth highlighting to the rest of the team. To do so, just share the snippet on the [#posthogfeedback](https://posthog.slack.com/archives/C011L071P8U) channel and link to the [doc][feedback-doc] if applicable.
+- PRD: [CLick here](https://docs.google.com/document/d/1x7OXNwPEuaqMvwsTmO8GFyUXkQDh5qXb4U1tco0ntaI/edit)
+- Figma: [Click Here](https://www.figma.com/file/VtX5l8hItgRtfnE50x5LmS/Swys-(deposits.com)-Wallet)
 
-<blockquote class='warning-note'>
-To ensure feedback durability and visibility, the #posthogfeedback channel should not be used as the primary source of <i>storage</i>. Please add the feedback to the main Google doc.
-</blockquote>
 
-**We strongly recommend that everyone joins at least one user call per month.** Regardless of your role, you will always benefit from staying in the loop with our users and their pain.
 
-[feedback-doc]: https://docs.google.com/document/d/1762fbEbFOVZUr24jQ3pFFj91ViY72TWrTgD-JxRJ5Tc/edit
-[recordings]: https://drive.google.com/drive/folders/1kmhj0GMAZTjVauN8JJKs_U7BgaD7XnUJ?usp=sharing
+## Reference
+- Bolt: [Click Here](https://www.bolt.com/checkout-demo)
+- Customizable color theme palette
+
+
+## Pricing
+**Not defined**
+
+## Technology
+**React**
+
+## Font
+**circular std**
+
+## Product Release Date
+**Not defined**

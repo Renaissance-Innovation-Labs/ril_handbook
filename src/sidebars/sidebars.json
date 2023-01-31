@@ -36,6 +36,14 @@
                 {
                     "name": "Investors",
                     "url": "/handbook/strategy/investors"
+                },
+                {
+                    "name": "Basic Process",
+                    "url": "/handbook/company/process"
+                },
+                {
+                    "name": "Working With Trello",
+                    "url": "/handbook/company/trello"
                 }
             ]
         },
@@ -44,32 +52,15 @@
             "url": "",
             "children": [
                 {
-                    "name": "Marketing",
-                    "url": "/handbook/strategy/marketing"
+                    "name": "Overview",
+                    "url": "/handbook/strategy/overview"
                 },
                 {
-                    "name": "Ideal Customer Persona",
-                    "url": "/handbook/strategy/ideal-customer-persona"
-                },
-                {
-                    "name": "Business model",
-                    "url": "/handbook/strategy/business-model"
-                },
-                {
-                    "name": "Objectives",
-                    "url": "/handbook/strategy/objectives"
-                },
-                {
-                    "name": "Roadmap",
-                    "url": "/roadmap"
-                },
-                {
-                    "name": "Brand",
-                    "url": "/handbook/strategy/brand"
+                    "name": "Direction",
+                    "url": "/handbook/strategy/direction"
                 }
             ]
         },
-
         {
             "name": "Engineering",
             "url": "",
@@ -77,7 +68,6 @@
                 {
                     "name": "Product Cycle",
                     "url": "",
-
                     "children": [
                         {
                             "name": "Initial Planning",
@@ -95,22 +85,18 @@
                             "name": "Design Phase/Analysis/Budgeting",
                             "url": "/handbook/engineering/design-phase"
                         },
-
                         {
                             "name": "Implementation Phase",
                             "url": "/handbook/engineering/implementation-phase"
                         },
-
                         {
                             "name": "Development/Iteration Phase",
                             "url": "/handbook/engineering/iteration-phase"
                         },
-
                         {
                             "name": "Deployment",
                             "url": "/handbook/engineering/deployment"
                         },
-
                         {
                             "name": "Evaluation/Closure",
                             "url": "/handbook/engineering/evaluation"
@@ -125,17 +111,14 @@
                     "name": "Wireframe Design Guidelines",
                     "url": "/handbook/engineering/wireframe-design-guidelines"
                 },
-
                 {
                     "name": "Development Stages",
                     "url": "/handbook/engineering/development-stages"
                 },
-
                 {
                     "name": "Infrastructure System",
                     "url": "/handbook/engineering/infrastructure-system"
                 },
-
                 {
                     "name": "Project Types",
                     "url": "/handbook/engineering/project-types"
@@ -147,23 +130,19 @@
             "url": "",
             "children": [
                 {
-                    "name": "Overview",
-                    "url": "/handbook/product/product-team"
-                },
-                {
-                    "name": "Product metrics",
+                    "name": "Finza",
                     "url": "/handbook/product/metrics"
                 },
                 {
-                    "name": "User feedback",
+                    "name": "Demo App",
                     "url": "/handbook/product/user-feedback"
                 },
                 {
-                    "name": "Paid features",
+                    "name": "Payouts SDK",
                     "url": "/handbook/product/paid-features"
                 },
                 {
-                    "name": "Releasing as beta",
+                    "name": "Marketplace",
                     "url": "/handbook/product/releasing-as-beta"
                 }
             ]
@@ -179,15 +158,11 @@
                 {
                     "name": "Product design process",
                     "url": "/handbook/design/process"
-                },
-                {
-                    "name": "Designing posthog.com",
-                    "url": "/handbook/design/designing-posthog-website"
                 }
             ]
         },
         {
-            "name": "Marketing",
+            "name": "Sales & marketing",
             "url": "",
             "children": [
                 {

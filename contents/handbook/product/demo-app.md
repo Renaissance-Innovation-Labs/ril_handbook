@@ -17,12 +17,12 @@ The tour’s goal is to give clients various user perspectives and how each user
 The Demo will be scalable, clear and explainable. 
 
 
-##	Project Team/ Stakeholders
+<!-- ##	Project Team/ Stakeholders
 
 - Product Owner:                  Samson Aligba 
 - Project Manager:	           Lemon Barry
 - Approved by: 		
-- Secondary approval:
+- Secondary approval: -->
 
 
 

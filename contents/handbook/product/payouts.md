@@ -12,16 +12,16 @@ Our goal is to create an sdk demo to showcase the easiest software development k
 
 
 
-##	Project Team/ Stakeholders
+<!-- ##	Project Team/ Stakeholders
 
 - Product Manager: Bariduanen Lemon-Okopide
 - Product owner: Samson Aligba
-- Developer: Kainy Chike-Oyechi
+- Developer: Kainy Chike-Oyechi -->
 
 
 
 
-##	Target Users
+<!-- ##	Target Users
 
 **WHO**
 
@@ -34,7 +34,7 @@ Our goal is to create an sdk demo to showcase the easiest software development k
 - Looking for ‘better’ integrated ways to pay merchants or contractors.
 - Provide customer/user retention tools and features within existing platforms
 - insurance claims, Payroll and Earned Wage Access solutions for 1099 workers
-
+ -->
 
 
 ##	Core User Stories

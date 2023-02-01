@@ -2,7 +2,7 @@
 title: Marketplace
 sidebar: Handbook
 showTitle: true
-hideAnchor: true
+hideAnchor: false
 ---
 
 ##	Overview
@@ -29,7 +29,7 @@ Users who are buyers should also be able to sign up as a merchant, add products 
 
 
 
-
+<!-- 
 
 
 ## Project Team/ Stakeholders
@@ -37,6 +37,7 @@ Users who are buyers should also be able to sign up as a merchant, add products 
 - Product Owner:               Shammah Nei for Renaissance Innovation Labs
 - Project Manager:	        Lemon Barry for Renaissance Innovation Labs
 
+ -->
 
 
 
@@ -50,8 +51,7 @@ Users who are buyers should also be able to sign up as a merchant, add products 
 
 
 
-
-
+<!-- 
 3.	Target Users
 
 **WHO**
@@ -61,7 +61,7 @@ Users who are buyers should also be able to sign up as a merchant, add products 
 - Designers
 
 **WHAT**
-
+ -->
 
 
 
@@ -217,7 +217,7 @@ Marketplace product will be free for MVP and subsequently have the paid version
     1. Status
 1. Users should be able to view button to add product (Follow user story for Merchants)
 
-## Competitors
+<!-- ## Competitors
 
-Envato
+Envato -->
 

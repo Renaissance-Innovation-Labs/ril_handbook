@@ -38,7 +38,7 @@
                     "url": "/handbook/company/investors"
                 },
                 {
-                    "name": "Basic Process",
+                    "name": "Basic Processes",
                     "url": "/handbook/company/process"
                 },
                 {
@@ -131,19 +131,19 @@
             "children": [
                 {
                     "name": "Finza",
-                    "url": "/handbook/product/metrics"
+                    "url": "/handbook/product/finza"
                 },
                 {
                     "name": "Demo App",
-                    "url": "/handbook/product/user-feedback"
+                    "url": "/handbook/product/demo-app"
                 },
                 {
                     "name": "Payouts SDK",
-                    "url": "/handbook/product/paid-features"
+                    "url": "/handbook/product/payouts"
                 },
                 {
                     "name": "Marketplace",
-                    "url": "/handbook/product/releasing-as-beta"
+                    "url": "/handbook/product/marketplace"
                 }
             ]
         },

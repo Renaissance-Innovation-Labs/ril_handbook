@@ -14,42 +14,42 @@ The Board Contains 3 and 6 Basic Board Columns for Management and Engineering Te
 
 ### BACKLOG:
 
-Possible things that can be added or done, features that can be implemented. 
-This is the staging area where specs should get fleshed out.
-No limit on the list size, but should be reconsidered if it gets long.
+- Possible things that can be added or done, features that can be implemented. 
+- This is the staging area where specs should get fleshed out.
+- No limit on the list size, but should be reconsidered if it gets long.
 
 ### TO DO:
 
-A list of Tasks and Activities to be Carried within a Week.
-Tasks Should be Added Every Monday to the Cards on this Column
-Each Card should have a description explaining the task and expected outcome
-One or More Persons can be assigned to a card to ensure efficient delivery
+- A list of Tasks and Activities to be Carried within a Week.
+- Tasks Should be Added Every Monday to the Cards on this Column
+- Each Card should have a description explaining the task and expected outcome
+- One or More Persons can be assigned to a card to ensure efficient delivery
 
 ### DOING:
 
-Ongoing Tasks should be moved to the Doing Column. 
-Each User is not allowed to have more than 2 Cards in Progress. 
-All Users should have at least one item in this state.
-Any Ongoing Task should be deleted from the To Do column
-There should be a Timeline attached to each Card in this column 
-Task Here can be broken into bits especially where a checklist is applicable.
-Documents, Designs, Links, Videos can be attached here for reference purpose.
+- Ongoing Tasks should be moved to the Doing Column. 
+- Each User is not allowed to have more than 2 Cards in Progress. 
+- All Users should have at least one item in this state.
+- Any Ongoing Task should be deleted from the To Do column
+- There should be a Timeline attached to each Card in this column 
+- Task Here can be broken into bits especially where a checklist is applicable.
+- Documents, Designs, Links, Videos can be attached here for reference purpose.
 
 ### CODE REVIEW
   
-This list is for items in code review. 
-When a task has gotten approval, it moves off to Testing.
-If there are too many cards here, we should break off from other tasks to get code review done.
+- This list is for items in code review. 
+- When a task has gotten approval, it moves off to Testing.
+- If there are too many cards here, we should break off from other tasks to get code review done.
 
 ### TESTING
 
-Cards come here after being code reviewed, and we're in a place for QA and fixing things QA finds. 
-Design review also happens at this stage
+- Cards come here after being code reviewed, and we're in a place for QA and fixing things QA finds. 
+- Design review also happens at this stage
 
 ### DONE 
 
-Completed Task. 
-Only Team Lead for Product Team is expected to Push a Task to the Done Column. 
+- Completed Task. 
+- Only Team Lead for Product Team is expected to Push a Task to the Done Column. 
 
 Links to the completed Task should be attached to the Done Column.
 

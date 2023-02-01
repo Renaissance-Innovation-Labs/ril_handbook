@@ -14,7 +14,7 @@ Finza is an international fund transfer platform that sends funds from the US/Ca
 
 This product will create a seamless experience around remittance and online transactions.
 
-##	Project Team/ Stakeholders
+<!-- ##	Project Team/ Stakeholders
 
 - Product Owner 	- Olukayode Akinkugbe
 - Product Manager	 - 
@@ -22,10 +22,10 @@ This product will create a seamless experience around remittance and online tran
 - UI/UX Designer 	 - Ekene
 - Frontend Developer - 
 - Backend Developer  - 
-- Project Manager       - 
+- Project Manager       -  -->
 
 
-## Target Users
+<!-- ## Target Users
 This section answers the questions; WHO are we designing for? WHAT will they do with the product? WHEN will they use the product? HOW will they access the product? [All pertaining to their specific use case].
 
 - WHO 
@@ -41,7 +41,7 @@ This section answers the questions; WHO are we designing for? WHAT will they do 
   - Mobile App
 
 - WHEN
-  - Each time they want to send funds to a Nigerian account
+  - Each time they want to send funds to a Nigerian account -->
 
 
 ##	Problem and Solution
@@ -79,7 +79,7 @@ As a User, I want to:
 - Connect my bank account so that I can move money in and out of Finza
 
 
-## Competitors 
+<!-- ## Competitors 
 
 ###	WorldRemit
 
@@ -140,7 +140,7 @@ Barter by Flutterwave is a lifestyle payments solution used by over 500,00 peopl
 - Additional value of N30 - N40 on every dollar sent to Nigeria
 - Carry out transactions and make purchases using our dollar virtual card
 - Perform up to $5,000 daily transaction with our virtual card
-- Very simple and easy user interface and experience
+- Very simple and easy user interface and experience -->
 
 
 

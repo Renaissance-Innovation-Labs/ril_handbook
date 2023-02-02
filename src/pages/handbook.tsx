@@ -29,6 +29,10 @@ const otherLinks = [
                 name: 'Direction',
                 to: '/handbook/strategy/direction',
             },
+            {
+                name: 'Brand',
+                url: '/handbook/strategy/brand',
+            },
         ],
     },
     {
@@ -65,19 +69,19 @@ const otherLinks = [
         links: [
             {
                 name: 'Finza',
-                to: '/handbook/product/metrics',
+                to: '/handbook/product/finza',
             },
             {
                 name: 'Demo App',
-                to: '/handbook/product/user-feedback',
+                to: '/handbook/product/demo-app',
             },
             {
                 name: 'Payouts SDK',
-                to: '/handbook/product/paid-features',
+                to: '/handbook/product/payouts',
             },
             {
                 name: 'Marketplace',
-                to: '/handbook/product/releasing-as-beta',
+                to: '/handbook/product/marketplace',
             },
         ],
     },

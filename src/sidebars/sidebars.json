@@ -42,8 +42,26 @@
                     "url": "/handbook/company/disciplinary-measures"
                 },
                 {
-                    "name": "Working With Trello",
-                    "url": "/handbook/company/trello"
+                    "name": "Process",
+                    "url": "",
+                    "children": [
+                        {
+                            "name": "Communication",
+                            "url": "/handbook/company/process/communication"
+                        },
+                        {
+                            "name": "Company Policies",
+                            "url": "/handbook/company/process/company-policies"
+                        },
+                        {
+                            "name": "Human Resource Policies",
+                            "url": "/handbook/company/process/hr-policies"
+                        },
+                        {
+                            "name": "Working With Trello",
+                            "url": "/handbook/company/process/trello"
+                        }
+                    ]
                 }
             ]
         },

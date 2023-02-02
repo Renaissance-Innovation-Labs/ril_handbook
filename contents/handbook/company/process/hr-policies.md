@@ -60,7 +60,7 @@ showSidebar: false
 
 | |
 |---|---------------------------|-------------------------|----------------------------------------------|-
-|  Phase 4 | Return Company Equipments | Remove Personal effects | Organize records, file or Training Materials | 
+|  Phase 4 | Return Company Equipment | Remove Personal effects | Organize records, file or Training Materials | 
 
 
 | |

@@ -35,8 +35,8 @@ export default function NotFoundPage(): JSX.Element {
                     <h2>Oops, there's nothing here</h2>
 
                     <p>
-                        Think this is a mistake? Email <a href="mailto:hey@posthog.com">hey@posthog.com</a> and we'll
-                        fix it!
+                        Think this is a mistake? Email{' '}
+                        <a href="mailto:contact@renaissancelabs.org">contact@renaissancelabs.org</a> and we'll fix it!
                     </p>
 
                     <p>

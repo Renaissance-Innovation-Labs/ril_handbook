@@ -7,6 +7,7 @@ showTitle: true
 
 ## Communication/Reporting Channels
 ➲ Slack
+
 Slack is used for:
 - Internal-only communication and announcements impacting all team members
 - Company newsletters and team updates

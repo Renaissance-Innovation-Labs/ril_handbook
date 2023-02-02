@@ -38,10 +38,6 @@
                     "url": "/handbook/company/investors"
                 },
                 {
-                    "name": "Disciplinary Measures",
-                    "url": "/handbook/company/disciplinary-measures"
-                },
-                {
                     "name": "Process",
                     "url": "",
                     "children": [
@@ -56,6 +52,10 @@
                         {
                             "name": "Human Resource Policies",
                             "url": "/handbook/company/process/hr-policies"
+                        },
+                        {
+                            "name": "Disciplinary Measures",
+                            "url": "/handbook/company/disciplinary-measures"
                         },
                         {
                             "name": "Working With Trello",

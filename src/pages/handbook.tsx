@@ -14,7 +14,7 @@ const otherLinks = [
             { name: 'Story', to: '/handbook/company/story' },
             { name: 'Team', to: '/handbook/company/team' },
             { name: 'Investors', to: '/handbook/company/investors' },
-            { name: 'Basic Process', to: '/handbook/company/process' },
+            { name: 'Disciplinary Measures', to: '/handbook/company/disciplinary-measures' },
             { name: 'Working With Trello', to: '/handbook/company/trello' },
         ],
     },

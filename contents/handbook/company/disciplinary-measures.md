@@ -1,5 +1,5 @@
 ---
-title: Basic Process
+title: Disciplinary Measures
 sidebar: Handbook
 showTitle: true
 ---

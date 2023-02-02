@@ -86,28 +86,3 @@ As a user, I want to be able to
 
     1. Users should be able to click on each color and affected area changes based on the selected color
 
-
-
-## App Client Doc
-
-- PRD: [CLick here](https://docs.google.com/document/d/1x7OXNwPEuaqMvwsTmO8GFyUXkQDh5qXb4U1tco0ntaI/edit)
-- Figma: [Click Here](https://www.figma.com/file/VtX5l8hItgRtfnE50x5LmS/Swys-(deposits.com)-Wallet)
-
-
-
-## Reference
-- Bolt: [Click Here](https://www.bolt.com/checkout-demo)
-- Customizable color theme palette
-
-
-## Pricing
-**Not defined**
-
-## Technology
-**React**
-
-## Font
-**circular std**
-
-## Product Release Date
-**Not defined**

@@ -50,6 +50,10 @@
                             "url": "/handbook/company/process/trello"
                         },
                         {
+                            "name": "Company Policies",
+                            "url": "/handbook/company/process/company-policies"
+                        },
+                        {
                             "name": "Human Resource Policies",
                             "url": "/handbook/company/process/hr-policies"
                         },
@@ -58,8 +62,8 @@
                             "url": "/handbook/company/process/disciplinary-measures"
                         },
                         {
-                            "name": "Company Policies",
-                            "url": "/handbook/company/process/company-policies"
+                            "name": "Software Product Cycle",
+                            "url": "/handbook/company/process/product-cycle"
                         }
                     ]
                 }

@@ -775,19 +775,15 @@ ul {
 }
 .DocSearch.DocSearch-Container {
     z-index: 99999999;
-    display: none;
 }
 .DocSearch-Button {
     @apply flex-grow text-left flex items-center space-x-1;
-    display: none;
 }
 .DocSearch-Button-Placeholder {
     @apply inline-flex items-center dark:text-white text-black opacity-25 text-[15px];
-    display: none;
 }
 .DocSearch-Button-Container {
     @apply flex items-center;
-    display: none;
 }
 
 /* Lemon Tag */

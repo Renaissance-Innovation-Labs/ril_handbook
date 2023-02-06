@@ -1,6 +1,10 @@
 import React from 'react'
+import { useValues, useActions } from 'kea'
+import { layoutLogic } from '../../logic/layoutLogic'
 
 export default function Logo({ noText, color, className = '' }) {
+    const { websiteTheme } = useValues(layoutLogic)
+    console.log(websiteTheme)
     return (
         <svg width="103" height="45" viewBox="0 0 103 45" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.8083 0H0.00146484V3.83928H11.8083V0Z" fill="#212120" />

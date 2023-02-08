@@ -23,6 +23,3 @@ We are currently reaching more people and getting them into the tech pipeline th
 
 Our mission is to move people forward through social, economic, and technological progress. We’re enabling a culture of orchestrated development that supports technology enthusiasts, aspiring entrepreneurs, and well-meaning individuals and organizations in the quest to redefine our society and communities for the better.
 
-### What should we be working on today?
-
-We set tri-monthly OKRs to help us keep track in all areas.

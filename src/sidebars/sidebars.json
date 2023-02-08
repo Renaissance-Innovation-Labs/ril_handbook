@@ -60,10 +60,6 @@
                         {
                             "name": "Disciplinary Measures",
                             "url": "/handbook/company/process/disciplinary-measures"
-                        },
-                        {
-                            "name": "Software Product Cycle",
-                            "url": "/handbook/company/process/product-cycle"
                         }
                     ]
                 }
@@ -92,42 +88,8 @@
             "url": "",
             "children": [
                 {
-                    "name": "Product Cycle",
-                    "url": "",
-                    "children": [
-                        {
-                            "name": "Initial Planning",
-                            "url": "/handbook/engineering/initial-planning"
-                        },
-                        {
-                            "name": "Planning Phase",
-                            "url": "/handbook/engineering/planning-phase"
-                        },
-                        {
-                            "name": "Requirement Gathering/Planning",
-                            "url": "/handbook/engineering/requirement-gathering"
-                        },
-                        {
-                            "name": "Design Phase/Analysis/Budgeting",
-                            "url": "/handbook/engineering/design-phase"
-                        },
-                        {
-                            "name": "Implementation Phase",
-                            "url": "/handbook/engineering/implementation-phase"
-                        },
-                        {
-                            "name": "Development/Iteration Phase",
-                            "url": "/handbook/engineering/iteration-phase"
-                        },
-                        {
-                            "name": "Deployment",
-                            "url": "/handbook/engineering/deployment"
-                        },
-                        {
-                            "name": "Evaluation/Closure",
-                            "url": "/handbook/engineering/evaluation"
-                        }
-                    ]
+                    "name": "Software Product Cycle",
+                    "url": "/handbook/company/process/product-cycle"
                 },
                 {
                     "name": "Product/Feature Life Cycle",
@@ -178,28 +140,14 @@
             "url": "",
             "children": [
                 {
-                    "name": "Product design process",
+                    "name": "Product Design Process",
                     "url": "/handbook/design/process"
                 }
             ]
         },
         {
-            "name": "Sales & marketing",
-            "url": "",
-            "children": [
-                {
-                    "name": "Overview",
-                    "url": "/handbook/growth/marketing"
-                },
-                {
-                    "name": "Sales",
-                    "url": "/handbook/growth/marketing/sales"
-                },
-                {
-                    "name": "Co Work-Space",
-                    "url": "/handbook/growth/marketing/co-work-space"
-                }
-            ]
+            "name": "Co Work-Space",
+            "url": "/handbook/growth/marketing/co-work-space"
         }
     ],
     "docs": [

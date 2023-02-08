@@ -774,16 +774,17 @@ ul {
     @apply hidden;
 }
 .DocSearch.DocSearch-Container {
+    @apply hidden;
     z-index: 99999999;
 }
 .DocSearch-Button {
-    @apply flex-grow text-left flex items-center space-x-1;
+    @apply flex-grow text-left hidden items-center space-x-1;
 }
 .DocSearch-Button-Placeholder {
-    @apply inline-flex items-center dark:text-white text-black opacity-25 text-[15px];
+    @apply hidden items-center  dark:text-white text-black opacity-25 text-[15px];
 }
 .DocSearch-Button-Container {
-    @apply flex items-center;
+    @apply items-center hidden;
 }
 
 /* Lemon Tag */

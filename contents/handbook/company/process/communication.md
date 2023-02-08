@@ -19,6 +19,6 @@ Slack is used for:
 ➲ Email
 
 ➲ Trello 
-Use Link to View SOP using Trello [Working With TRELLO](https://docs.google.com/document/d/1f4MOjTcTlwAXbgY7zDvseka907BYdT9KqGCMZ7uTZk8/edit?usp=sharing)
+Use link to View How to work with Trello. [Working With TRELLO](/handbook/company/process/trello)
 
 ➲ Jira

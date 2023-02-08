@@ -4,13 +4,13 @@ sidebar: Docs
 showTitle: true
 ---
 
-# **SUMMARY**
+## **SUMMARY**
 
 At Renaissance Innovation Lab, we believe that Learning is simply not enough; one must actively practice what is learned for better application of knowledge and skill. These projects are; Management Project and External Project. This document describes each of these Projects in detail, their project Development stages, and guidelines for every stakeholder involved in each of the above projects and serves as a guide for RIL’s project manager(s) in the execution of any RIL project from the initiation phase to the close of project (closure) phase, describing all that is expected of the Project Manager. The activities listed in this document are coordinated by the office of the Project Manager.
 
-# **PROJECT TYPES**
+## **PROJECT TYPES**
 
-### **Management project**
+#### **Management project**
 
 Management projects as the name implies are projects proposed by RIL’s Management. These projects are usually experimental and if they do exceptionally well, goes live and becomes a product of its own independent of RIL. 
 
@@ -34,7 +34,7 @@ Management projects as the name implies are projects proposed by RIL’s Managem
 - Determine a start date and an end date.
 - Execute Project.
 
-### **External Project**
+#### **External Project**
 
 External projects are projects contracted to RIL for execution. External Projects are not the same as Management Projects. While Management Projects are proposed by management, they are experimental whereas External Projects are not.
 
@@ -59,28 +59,29 @@ External projects are projects contracted to RIL for execution. External Project
 - Determine a start date and an end date.
 - Execute Project.
 
-### **OTHERS:**
+#### **OTHERS:**
 
 - External projects must be in line with RIL’s vision
 
-# **PRODUCT DEVELOPMENT STAGES**
+<!-- 
+## **PRODUCT DEVELOPMENT STAGES**
 
 For every product being developed, there are stages that must be followed by the Project Manager in order to avoid chaos and ensure that products are developed right.
 
-Find the link to the various development stages [here.](https://docs.google.com/document/d/1VLy02ve7Lm7fWLTGdkgDkAPXuxb1y5qI5Zuj2GiUlZ8/edit?usp=sharing)
+Find the link to the various development stages [here.](https://docs.google.com/document/d/1VLy02ve7Lm7fWLTGdkgDkAPXuxb1y5qI5Zuj2GiUlZ8/edit?usp=sharing) -->
 
-# **PROJECT ACCEPTANCE GUIDELINES**
+## **PROJECT ACCEPTANCE GUIDELINES**
 
 A Project Manager knowing when to take on a project is crucial for the success of each project and the efficiency of the management of said projects. In taking on projects in RIL, the following factors should be considered;
 
-## **Project Hierarchy**
+### **Project Hierarchy**
 
 When faced with a lot of project proposals on your table, the project Manager must give time and resources to the projects according to this Hierarchical list;
 
 1. External Projects.
 2. Management Projects.
 
-## **Opportunity Cost**
+### **Opportunity Cost**
 
 If a proposed project is lower in the hierarchical table, it is the Project Manager’s duty to analyze the Opportunity cost of the said project and make a decision based on their analysis. Factors to consider when analyzing the opportunity cost are;
 
@@ -90,7 +91,7 @@ If a proposed project is lower in the hierarchical table, it is the Project Mana
 4. The social capacity of the Project Owner in the Tech Space
 5. The Project Owner’s value to the Lab.
 
-## **Available Resources**
+### **Available Resources**
 
 > Before taking on a project, the project Manager must ensure that the Lab is equipped with the necessary resources for the execution of the project. These resources are as follows;
 > 
@@ -98,14 +99,14 @@ If a proposed project is lower in the hierarchical table, it is the Project Mana
 2. **Hardware & Software:** Before accepting a project, it is the Project manager’s duty to identify the hardware and software resources needed to execute the project, to know if the Lab has access to the needed resources or if the Lab can afford to acquire these resources in time to execute the project.
 3. **Cost & Budget:** When analyzing the project and determining the budget, project’s whose budget exceeds the Lab’s financial capabilities are to be held off until such a time when the Lab can fund it or get a sponsor to fund it.
 
-# **GENERAL**
+<!-- ## **GENERAL**
 
 For accountability, effectiveness and efficiency, the project Manager is required to do the following;
 
 - Take down minutes of every project meeting held focusing on the key points raised, actions to be taken and those responsible for said actions. These minutes are to be uploaded in the folder of their Parent Project.
 - On a weekly basis, create and submit a status report of your daily activities during the workweek and status reports of every ongoing project. This report should be submitted latest, Sunday 00:00am.
-- Hold a meeting once a week with Project stakeholders to discuss the status reports submitted and weekly tasks ahead.
+- Hold a meeting once a week with Project stakeholders to discuss the status reports submitted and weekly tasks ahead. -->
 
-# **CONCLUSION**
+<!-- ## **CONCLUSION**
 
-Although this document guides the Project Manager on how to go about the operations of their office, it is open to be reviewed at all times and changes made based on the report from the reviews as approved by the General manager.
+Although this document guides the Project Manager on how to go about the operations of their office, it is open to be reviewed at all times and changes made based on the report from the reviews as approved by the General manager. -->

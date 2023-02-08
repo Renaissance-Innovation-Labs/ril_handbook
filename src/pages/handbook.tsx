@@ -19,7 +19,6 @@ const otherLinks = [
             { name: 'Company Policies', to: '/handbook/company/process/company-policies' },
             { name: 'Human Resource Policies', to: '/handbook/company/process/hr-policies' },
             { name: 'Disciplinary Measures', to: '/handbook/company/process/disciplinary-measures' },
-            { name: 'Software Product Cycle', to: '/handbook/company/process/product-cycle' },
         ],
     },
     {
@@ -42,10 +41,7 @@ const otherLinks = [
     {
         name: 'Engineering',
         links: [
-            {
-                name: 'Product Cycle',
-                to: '/handbook/engineering/initial-planning',
-            },
+            { name: 'Software Product Cycle', to: '/handbook/company/process/product-cycle' },
             {
                 name: 'Product/Feature Life Cycle',
                 to: '/handbook/engineering/feature-life-cycle',
@@ -93,7 +89,7 @@ const otherLinks = [
         name: 'Design',
         links: [
             {
-                name: 'Product Design process',
+                name: 'Product Design Process',
                 to: '/handbook/design/process',
             },
         ],
@@ -101,14 +97,14 @@ const otherLinks = [
     {
         name: 'Sales & marketing',
         links: [
-            {
-                name: 'Overview',
-                to: '/handbook/growth/marketing',
-            },
-            {
-                name: 'Sales',
-                to: '/handbook/growth/marketing/sales',
-            },
+            // {
+            //     name: 'Overview',
+            //     to: '/handbook/growth/marketing',
+            // },
+            // {
+            //     name: 'Sales',
+            //     to: '/handbook/growth/marketing/sales',
+            // },
             {
                 name: 'Co Work-Space',
                 to: '/handbook/growth/marketing/co-work-space',

@@ -36,11 +36,7 @@ Willful damage of company’s assets | Payment of company’s asset | Payment of
 Making false statements/ providing false information on employment. | Summary of Dismissal | ____ | ____
 
 
-
-
-2. Travel or Sick Leave - Any Staff in this Category is expected to prepare a well documented letter/mail seeking approval and reasons for Leave and expected return date. E-mails should be sent to hr@renaissancelabs.org and CC: Team Lead and Shammah@renaissancelabs.org 
-
-3. Requisition and Approval - When in need of anything, one is expected to write a requisition mail, stating the need and purpose. To be sent to hr@renaissanclabs.org. Until Approval is given, the request is void/
+2. Requisition and Approval - When in need of anything, one is expected to write a requisition mail, stating the need and purpose. To be sent to hr@renaissanclabs.org. Until Approval is given, the request is void/
 
 
 

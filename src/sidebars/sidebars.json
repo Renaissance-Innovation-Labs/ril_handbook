@@ -114,28 +114,6 @@
             ]
         },
         {
-            "name": "Product",
-            "url": "",
-            "children": [
-                {
-                    "name": "Finza",
-                    "url": "/handbook/product/finza"
-                },
-                {
-                    "name": "Demo App",
-                    "url": "/handbook/product/demo-app"
-                },
-                {
-                    "name": "Payouts SDK",
-                    "url": "/handbook/product/payouts"
-                },
-                {
-                    "name": "Marketplace",
-                    "url": "/handbook/product/marketplace"
-                }
-            ]
-        },
-        {
             "name": "Design",
             "url": "",
             "children": [

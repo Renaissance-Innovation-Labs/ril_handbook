@@ -64,27 +64,27 @@ const otherLinks = [
             },
         ],
     },
-    {
-        name: 'Product',
-        links: [
-            {
-                name: 'Finza',
-                to: '/handbook/product/finza',
-            },
-            {
-                name: 'Demo App',
-                to: '/handbook/product/demo-app',
-            },
-            {
-                name: 'Payouts SDK',
-                to: '/handbook/product/payouts',
-            },
-            {
-                name: 'Marketplace',
-                to: '/handbook/product/marketplace',
-            },
-        ],
-    },
+    // {
+    //     name: 'Product',
+    //     links: [
+    //         {
+    //             name: 'Finza',
+    //             to: '/handbook/product/finza',
+    //         },
+    //         {
+    //             name: 'Demo App',
+    //             to: '/handbook/product/demo-app',
+    //         },
+    //         {
+    //             name: 'Payouts SDK',
+    //             to: '/handbook/product/payouts',
+    //         },
+    //         {
+    //             name: 'Marketplace',
+    //             to: '/handbook/product/marketplace',
+    //         },
+    //     ],
+    // },
     {
         name: 'Design',
         links: [

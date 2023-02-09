@@ -29,5 +29,36 @@ showTitle: true
 This is a list of the most commonly celebrated holidays in Nigeria.
 
 
+| S/No | Holiday | Date | Description |        
+|---------|--------------|--------------|-----------------------------|
+| 1 | New Year's Day | 1 January | Commemorates the beginning of the calendar year.
+| 2 | 2 Working Days, usually Friday and Monday | Easter | Easter commemorates the resurrection of Jesus from the dead. The highest church attendance happens on Easter. Like Christmas, it has become a widely celebrated secular holiday, and customs observed by both Christians and some non-Christians include egg hunting, the Easter Bunny, and Easter parades.|
+| 3 | Ramadan Day | April | Beginning of Ramadan |
+| 4 | Workers' Day | 1 May | Commemorates Workers' labor movement internationally.
+| 5 | Eid-UL-Fitr | May | End of Ramadan|
+| 6 | Democracy Day | 12 June | Commemorates the return to Democracy in Nigeria. |
+| 7 | Eid-AL-Adha | July | The day is celebrated to commemorate the sacrifice of Ishamel by Abraham.|
+| 8 | Hijra | August | Islamic New Year |
+| 9 | National Independence Day | 1 October | Commemorates the Independence of Nigeria from Britain in 1960 |
+| 10 | Christmas Day | 25 December | Christian holiday commemorating the birth of Jesus.|
+| 11 | Boxing Day | 26 December | Christian holiday commemorating the day after Christmas.|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

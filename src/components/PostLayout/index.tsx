@@ -658,14 +658,14 @@ export default function PostLayout({
                                     {filePath && (
                                         <>
                                             <SidebarAction
-                                                href={`https://github.com/PostHog/posthog.com/tree/master/contents/${filePath}`}
+                                                href={`https://github.com/Renaissance-Innovation-Labs/ril_handbook`}
                                                 title="Edit this page"
                                             >
                                                 <Edit />
                                             </SidebarAction>
                                             <SidebarAction
                                                 title="Raise an issue"
-                                                href={`https://github.com/PostHog/posthog.com/issues/new?title=Feedback on: ${title}&body=**Issue with: /${filePath}**\n\n`}
+                                                href={`https://github.com/Renaissance-Innovation-Labs/ril_handbook/issues`}
                                             >
                                                 <Issue />
                                             </SidebarAction>
